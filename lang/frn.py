@@ -128,7 +128,7 @@ BAN = {
     "cbNotU" : "Message pas pour toi.. 😏",
     "banCB" : {
         "Créez votre propre bot": f"{settings.SOURCE_CODE}", "Tutoriel": f"{settings.SOURCE_CODE}",
-        "Chaîne de mise à jour": "https://telegram.dog/ilovepdf_bot"
+        "Chaîne de mise à jour": "https://telegram.dog/anumitultrabots"
     },
     "UCantUse" : """Hey {}\n\nPOUR QUELQUE RAISON QUE VOUS NE POUVEZ PAS UTILISER CE BOT :(""",
     "UCantUseDB" : """Hé {}\n\nPOUR QUELQUE RAISON QUE VOUS NE POUVEZ PAS UTILISER CE BOT :(\n\nRAISON : {}""",

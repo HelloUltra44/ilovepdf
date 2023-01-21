@@ -80,14 +80,14 @@ class settings(object):
 
     MULTI_LANG_SUP = True if os.environ.get('MULTI_LANG_SUP', "False") == "True" else False
     
-    REPORT = "https://t.me/ilovepdf_bot/33?comment=1000000000"
+    REPORT = "https://t.me/anumitultrabots/33?comment=1000000000"
     
-    FEEDBACK = "https://telegram.dog/ilovepdf_bot"
+    FEEDBACK = "https://telegram.dog/anumitultrabots"
     
     SOURCE_CODE = "https://github.com/nabilanavab/iLovePDF"
     
     OWNER_ID, OWNER_USERNAME = 531733867, "nabilanavab"
     
-    OWNED_CHANNEL = "https://telegram.dog/iLovePDF_bot"
+    OWNED_CHANNEL = "https://telegram.dog/anumitultrabots"
     
 # ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]

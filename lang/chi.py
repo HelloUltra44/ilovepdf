@@ -128,7 +128,7 @@ BAN = {
     "cbNotU" : "消息不是给你的.. 😏",
     "banCB" : {
         "创建你自己的机器人" : f"{str(settings.SOURCE_CODE)}", "教程" : f"{str(settings.SOURCE_CODE)}",
-        "更新频道" : "https://telegram.dog/ilovepdf_bot"
+        "更新频道" : "https://telegram.dog/anumitultrabots"
     },
     "UCantUse" : """嘿{}\n\n由于某些原因你不能使用这个 BOT :(""",
     "UCantUseDB" : """嘿{}\n\n由于某些原因你不能使用这个 BOT :(\n\nREASON: {}""",

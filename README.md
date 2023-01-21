@@ -8,7 +8,7 @@
 > **Note** 
 > : Something big awaits you. Don't forget to star the project
 
-<h3><pre><center>Please take a look at this bot before hosting it yourself <a href="https://telegram.dog/ilovepdf_bot">: Test Bot</a></center></pre></h3>
+<h3><pre><center>Please take a look at this bot before hosting it yourself <a href="https://telegram.dog/anumitultrabots">: Test Bot</a></center></pre></h3>
 
 <small><i>About:</i></small>
 
@@ -36,14 +36,14 @@ it was specially developed for creating PDF's from images.. And Now, Bot Support
 </div></br>
 
 <ul><b>
-    <li>To use the bot's services, you will need to send the <a href="https://telegram.dog/ilovepdf_bot">BOT</a> a PDF/IMAGEs file.
-    <li>Once you have sent the PDF file to the <a href="https://telegram.dog/ilovepdf_bot"> BOT</a>, you can specify the action that you want the bot to perform.
-    <li>The <a href="https://telegram.dog/ilovepdf_bot"> BOT</a> will process the PDF file and perform the requested action. This may take a few minutes, depending on
+    <li>To use the bot's services, you will need to send the <a href="https://telegram.dog/anumitultrabots">BOT</a> a PDF/IMAGEs file.
+    <li>Once you have sent the PDF file to the <a href="https://telegram.dog/anumitultrabots"> BOT</a>, you can specify the action that you want the bot to perform.
+    <li>The <a href="https://telegram.dog/anumitultrabots"> BOT</a> will process the PDF file and perform the requested action. This may take a few minutes, depending on
     <ul>
         <li>the size of the file and,
         <li>the complexity of the action being performed.
     </ul>
-    <li>Once the <a href="https://telegram.dog/ilovepdf_bot"> BOT</a> has completed the action, it will send you the results.
+    <li>Once the <a href="https://telegram.dog/anumitultrabots"> BOT</a> has completed the action, it will send you the results.
     <ul>
         <li>If the action was successful, you will receive the output of the action
         <li>If the action was not successful, the bot will let you know and provide any relevant error messages.

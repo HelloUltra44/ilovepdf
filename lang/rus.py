@@ -128,7 +128,7 @@ BAN = {
     "cbNotU": "Сообщение не для вас.. 😏",
     "banCB" : {
         "« Создай своего бота »": f"{settings.SOURCE_CODE}", "« Учебник »": f"{settings.SOURCE_CODE}",
-        "« Обновить канал »": "https://telegram.dog/ilovepdf_bot"
+        "« Обновить канал »": "https://telegram.dog/anumitultrabots"
     },
     "UCantUse" : """Привет {}\n\nПО КАКИМ-ТО ПРИЧИНАМ ВЫ НЕ МОЖЕТЕ ИСПОЛЬЗОВАТЬ ЭТОГО БОТА :(""",
     "UCantUseDB" : """Привет {}\n\nПО НЕКОТОРОЙ ПРИЧИНЕ ВЫ НЕ МОЖЕТЕ ИСПОЛЬЗОВАТЬ ЭТОГО БОТА :(\n\nПРИЧИНА: {}""",

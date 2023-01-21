@@ -239,7 +239,7 @@ REASON: {}""",
     "banCB" : {
         "Create your Own Bot": f"{settings.SOURCE_CODE}",
         "Tutorial": f"{settings.SOURCE_CODE}",
-        "Update Channel": "https://telegram.dog/ilovepdf_bot"
+        "Update Channel": "https://telegram.dog/anumitultrabots"
     },
     "Force" : """Wait [{}](tg://user?id={})..!!
 

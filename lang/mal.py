@@ -166,7 +166,7 @@ BAN = {
     "banCB" : {
         "നിങ്ങളുടെ സ്വന്തം ബോട്ട് സൃഷ്ടിക്കുക": f"{settings.SOURCE_CODE}",
         "ട്യൂട്ടോറിയൽ": f"{settings.SOURCE_CODE}",
-        "ചാനൽ അപ്ഡേറ്റ് ചെയ്യുക": "https://telegram.dog/ilovepdf_bot"
+        "ചാനൽ അപ്ഡേറ്റ് ചെയ്യുക": "https://telegram.dog/anumitultrabots"
     },
     "UCantUse" : """ഹേയ് {}
 

@@ -1,5 +1,5 @@
 # fileName : plugins/dm/_init_.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 fileName = "plugins/dm/_init_.py"
 
 from plugins.util         import *
@@ -145,4 +145,4 @@ async def non_subscriber(bot, message):
     except Exception as e:
         logger.exception("plugins/_init_: FORCE_SUBSCRIPTION: %s" %(e), exc_info=True)
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

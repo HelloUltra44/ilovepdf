@@ -1,5 +1,5 @@
 # fileName: configs/config.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 
 import os
 
@@ -84,10 +84,10 @@ class settings(object):
     
     FEEDBACK = "https://telegram.dog/anumitultrabots"
     
-    SOURCE_CODE = "https://github.com/nabilanavab/iLovePDF"
+    SOURCE_CODE = "https://github.com/ajak4405/iLovePDF"
     
-    OWNER_ID, OWNER_USERNAME = 531733867, "nabilanavab"
+    OWNER_ID, OWNER_USERNAME = 531733867, "ajak4405"
     
     OWNED_CHANNEL = "https://telegram.dog/anumitultrabots"
     
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

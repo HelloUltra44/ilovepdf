@@ -1,5 +1,5 @@
 # fileName : plugins/dm/callBack/process.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 fileName =  "plugins/dm/callBack/process.py"
 
 from PIL import Image
@@ -13,10 +13,10 @@ from PyPDF2 import PdfFileWriter, PdfFileReader
 from PDFNetPython3.PDFNetPython import PDFDoc, Optimizer, SDFDoc, PDFNet
 
 try:
-    nabilanavab = False # Change to False else never work
+    ajak4405 = False # Change to False else never work
     import ocrmypdf
 except Exception:
-    nabilanavab = True
+    ajak4405 = True
 
 # ❌ DECRYPT PDF FILE ❌
 async def decryptPDF(message, cDIR, password, lang_code):
@@ -266,4 +266,4 @@ async def formatterPDF(message, cDIR, lang_code):
         logger.exception("🐞 %s: %s" %(fileName, e), exc_info = True)
         return False
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

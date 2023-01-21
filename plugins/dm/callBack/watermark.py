@@ -1,5 +1,5 @@
 # fileName : plugins/dm/callBack/watermark.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 fileName = "plugins/dm/callBack/watermark.py"
 
 import os, time, fitz
@@ -31,8 +31,8 @@ async def watermark(bot, callbackQuery):
             return await callbackQuery.answer(CHUNK["inWork"])
         await callbackQuery.answer(CHUNK["process"])
         
-        nabilanavab = True; i = 0
-        while(nabilanavab):
+        ajak4405 = True; i = 0
+        while(ajak4405):
             # REQUEST FOR PG NUMBER (MAX. LIMIT 5)
             if i >= 5:
                 await callbackQuery.message.reply(CHUNK['over'])
@@ -50,29 +50,29 @@ async def watermark(bot, callbackQuery):
                 if os.path.splitext(askWA.document.file_name)[1].lower() in [".png", ".jpeg", ".jpg"]:
                     waSize = askWA.document.file_size
                     waID = askWA.document.file_id
-                    nabilanavab = False
+                    ajak4405 = False
                     break
             elif askWA.photo and data[1] == "img":
                 waSize = askWA.photo.file_size
                 waID = askWA.document.file_id
-                nabilanavab = False
+                ajak4405 = False
                 break
             elif askWA.document and data[1] == "pdf":
                 if os.path.splitext(askWA.document.file_name)[1].lower() == ".pdf":
                     waSize = askWA.document.file_size
                     waID = askWA.document.file_id
-                    nabilanavab = False
+                    ajak4405 = False
                     break
             elif askWA.text and data[1] == "txt":
                 waTXT = askWA.text
-                nabilanavab = False
+                ajak4405 = False
                 break
         
-        # nabilanavab=True ONLY IF PROCESS CANCELLED
-        if nabilanavab == True:
+        # ajak4405=True ONLY IF PROCESS CANCELLED
+        if ajak4405 == True:
             return await work(callbackQuery, "delete", False)
         
-        if nabilanavab == False:
+        if ajak4405 == False:
             dlMSG = await callbackQuery.message.reply_text(
                 CHUNK['download'], reply_markup = _, quote=True
             )
@@ -154,4 +154,4 @@ async def watermark(bot, callbackQuery):
         logger.exception("🐞 %s: %s" %(fileName, e), exc_info = True)
         await work(callbackQuery, "delete", False)
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

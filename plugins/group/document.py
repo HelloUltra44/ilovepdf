@@ -1,5 +1,5 @@
 # fileName : plugins/group/document.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 fileName = "plugins/group/document.py"
 
 import os, fitz, asyncio
@@ -16,7 +16,7 @@ from plugins.fncta  import thumbName, formatThumb
 from pyrogram       import Client as ILovePDF, filters
 from configs.db     import invite_link, myID, BANNED_USR_DB
 
-@ILovePDF.on_message(filters.group & filters.incoming & filters.command(["analyse", "check", "nabilanavab"]))
+@ILovePDF.on_message(filters.group & filters.incoming & filters.command(["analyse", "check", "ajak4405"]))
 async def gDOC(bot, message):
     try:
         await message.reply_chat_action(enums.ChatAction.TYPING)
@@ -220,4 +220,4 @@ async def gDOC(bot, message):
         logger.exception("🐞 %s: %s" %(fileName, e), exc_info = True)
         await work(message, "delete", True)
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

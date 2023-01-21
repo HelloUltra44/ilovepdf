@@ -1,5 +1,5 @@
 # fileName : plugins/dm/callback/metaData.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 fileName = "plugins/dm/callback/metaData.py"
 
 import fitz, time
@@ -50,4 +50,4 @@ async def _pdfInfo(bot, callbackQuery):
         logger.exception("🐞 %s: %s" %(fileName, e), exc_info = True)
         await work(callbackQuery, "delete", False)
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

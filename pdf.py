@@ -1,9 +1,9 @@
-# This file is part of nabilanavab/iLovePDF [a completely free software]
+# This file is part of ajak4405/iLovePDF [a completely free software]
 
-__author__ = "nabilanavab"
-__email__ = "nabilanavab@gmail.com"
-__telegram__ = "telegram.dog/nabilanavab"
-__copyright__ = "Copyright 2021, nabilanavab"
+__author__ = "ajak4405"
+__email__ = "ajak4405@gmail.com"
+__telegram__ = "telegram.dog/ajak4405"
+__copyright__ = "Copyright 2021, ajak4405"
 
 iLovePDF = '''
   _   _                  ___  ___  ____ ™
@@ -187,23 +187,23 @@ class Bot(ILovePDF):
 
 if __name__ == "__main__":
     if os.path.exists(
-      f"{os.path.abspath(os.getcwd())}/work/nabilanavab"
+      f"{os.path.abspath(os.getcwd())}/work/ajak4405"
     ):
-        for chat in os.listdir("work/nabilanavab"):
+        for chat in os.listdir("work/ajak4405"):
             if f"{chat}".startswith("-100"):
                 works['g'].append(
-                    [chat, [user for user in os.listdir(f"work/nabilanavab/{chat}")]]
+                    [chat, [user for user in os.listdir(f"work/ajak4405/{chat}")]]
                 )
             else:
                 works['u'].append(chat)
         shutil.rmtree(
             f"{os.path.abspath(os.getcwd())}/work"
         )
-    os.makedirs("work/nabilanavab")
+    os.makedirs("work/ajak4405")
     
     pyTgLovePDF.polling()
     app = Bot()
     app.run()
 
 #                                                                                                                                       OPEN SOURCE TELEGRAM PDF BOT 🐍
-#                                                                                                                                            by: nabilanavab [iLovePDF]
+#                                                                                                                                            by: ajak4405 [iLovePDF]

@@ -1,5 +1,5 @@
 # fileName : plugins/dm/settings.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 
 import asyncio
 from plugins.util           import *
@@ -225,4 +225,4 @@ async def _settings(bot, callbackQuery):
     except Exception as e:
         logger.debug(f"plugins/dm/callBack/settings : {e}", exc_info=True)
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

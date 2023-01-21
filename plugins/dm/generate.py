@@ -1,5 +1,5 @@
 # fileName : plugins/dm/generate.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 
 import asyncio, os, shutil, fitz
 from .photo          import HD
@@ -119,4 +119,4 @@ async def _GEN(bot, callbackQuery):
         try: shutil.rmtree(f"work/{chat_id}"); del HD[chat_id]
         except Exception: pass
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

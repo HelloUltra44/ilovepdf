@@ -1,4 +1,4 @@
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 file_name = "lang/eng.py"
 
 
@@ -113,9 +113,9 @@ SETTINGS = {
     "lang" : "Now, Select any language..",
     "default" : ["DEFAULT ❌", "CUSTOM ✅"],
     "cant" : "This feature cannot be used ❌",
-    "wait" : { "Waiting.. 🥱" : "nabilanavab" },
+    "wait" : { "Waiting.. 🥱" : "ajak4405" },
     "feedbtn" : { "Report any bugs you find!" : settings.REPORT },
-    "chgLang" : {"SETTING ⚙️ » CHANGE LANG 🌐" : "nabilanavab"},
+    "chgLang" : {"SETTING ⚙️ » CHANGE LANG 🌐" : "ajak4405"},
     "askApi" : "\n\nOpen the **Below** link and Send me the secret code:",
     "waitApi" : { "Open link ✅" : "https://www.convertapi.com/a/signin" },
     "error" : "Something went wrong while retrieving data from the database",
@@ -129,12 +129,12 @@ SETTINGS = {
     ],
     "thumb" : [
         {
-            "SETTING ⚙️ » THUMBNAIL 📷" : "nabilanavab",
+            "SETTING ⚙️ » THUMBNAIL 📷" : "ajak4405",
             "♻ ADD ♻" : "set|thumb+",
             "« BACK TO HOME «" : "Home|B"
         },
         {
-            "SETTING ⚙️ » THUMBNAIL 📷" : "nabilanavab",
+            "SETTING ⚙️ » THUMBNAIL 📷" : "ajak4405",
             "♻ CHANGE ♻" : "set|thumb+",
             "🗑 DELETE 🗑" : "set|thumb-",
             "« BACK TO HOME «" : "Home|B2S"
@@ -142,12 +142,12 @@ SETTINGS = {
     ],
     "fname" : [
         {
-            "SETTING ⚙️ » FNAME 📷" : "nabilanavab",
+            "SETTING ⚙️ » FNAME 📷" : "ajak4405",
             "♻ ADD ♻" : "set|fname+",
             "« BACK TO HOME «" : "Home|B2S"
         },
         {
-            "SETTING ⚙️ » FNAME 📷" : "nabilanavab",
+            "SETTING ⚙️ » FNAME 📷" : "ajak4405",
             "♻ CHANGE ♻" : "set|fname+",
             "🗑 DELETE 🗑" : "set|fname-",
             "« BACK TO HOME «" : "Home|B2S"
@@ -155,12 +155,12 @@ SETTINGS = {
     ],
     "api" : [
         {
-            "SETTING ⚙️ » API 📷" : "nabilanavab",
+            "SETTING ⚙️ » API 📷" : "ajak4405",
             "♻ ADD ♻" : "set|api+",
             "« BACK TO HOME «" : "Home|B2S"
         },
         {
-            "SETTING ⚙️ » API 📷" : "nabilanavab",
+            "SETTING ⚙️ » API 📷" : "ajak4405",
             "♻ CHANGE ♻" : "set|api+",
             "🗑 DELETE 🗑" : "set|api-",
             "« BACK TO HOME «" : "Home|B2S"
@@ -168,12 +168,12 @@ SETTINGS = {
     ],
     "capt" : [
         {
-            "SETTING ⚙️ » CAPTION 📷" : "nabilanavab",
+            "SETTING ⚙️ » CAPTION 📷" : "ajak4405",
             "♻ ADD ♻" : "set|capt+",
             "« BACK TO HOME «" : "Home|B2S"
         },
         {
-            "SETTING ⚙️ » CAPTION 📷" : "nabilanavab",
+            "SETTING ⚙️ » CAPTION 📷" : "ajak4405",
             "♻ CHANGE ♻" : "set|capt+",
             "🗑 DELETE 🗑" : "set|capt-",
             "« BACK TO HOME «" : "Home|B2S"
@@ -188,10 +188,10 @@ BOT_COMMAND = {
 
 STATUS_MSG = {
     "_HOME" : {
-        "📊 ↓ SERVER ↓ 📊" : "nabilanavab",
+        "📊 ↓ SERVER ↓ 📊" : "ajak4405",
         "📶 STORAGE 📶" : "status|server",
         "🥥 DATABASE 🥥" : "status|db",
-        "🌝 ↓ GET LIST ↓ 🌝": "nabilanavab",
+        "🌝 ↓ GET LIST ↓ 🌝": "ajak4405",
         "💎 ADMIN 💎" : "status|admin",
         "👤 USERS 👤" : "status|users",
         "« BACK «" : "Home|A"
@@ -278,7 +278,7 @@ File Size : `{}`""",
         "🚫 CLOSE 🚫" : "close|all"
     },
     "pdfCB2" : {
-        " ↓ SECOND PAGE  ↓ " : "nabilanavab",
+        " ↓ SECOND PAGE  ↓ " : "ajak4405",
         "📝 OCR 📝" : "work|ocr",
         "🥷 A4 FORMAT 🥷" : "work|format", 
         "🖤 BLACK/WHITE 🤍" : "baw",
@@ -316,7 +316,7 @@ PROGRESS = {
     "refresh" : { "♻️ Refresh ♻️" : "{}" },
     "dlFile" : "`Downloading your file..` 📥",
     "dlImage" : "`Downloading your Image..⏳`",
-    "upFileCB" : {"📤 .. UPLOADING.. 📤" : "nabilanavab"},
+    "upFileCB" : {"📤 .. UPLOADING.. 📤" : "ajak4405"},
     "takeTime" : """```⚙️ Work in Progress..`
 `It might take some time..```💛""",
     "cbPRO_D" : ["📤 DOWNLOAD: {:.2f}% 📤", "🎯 CANCEL 🎯"],
@@ -330,7 +330,7 @@ GENERATE = {
     "geting" : "File Name: `{}`\nPages: `{}`",
     "getFileNm" : "Now Send Me a File Name 😒: ",
     "deleteQueue" : "`Queue deleted Successfully..`🤧",
-    "getingCB" : {"📚 GENERATING PDF.." : "nabilanavab"},
+    "getingCB" : {"📚 GENERATING PDF.." : "ajak4405"},
 }
 
 document = {
@@ -364,7 +364,7 @@ ERROR: `{}`""",
 
 `please Send me a file less than {}mb Size` 🙃""",
     "bigCB" : {
-        "💎 Create 2Gb Support Bot 💎" : "https://github.com/nabilanavab/ilovepdf"
+        "💎 Create 2Gb Support Bot 💎" : "https://github.com/ajak4405/ilovepdf"
     },
     "imageAdded" : """`Added {} pages to your PDF..`🤓
 
@@ -394,7 +394,7 @@ split = {
     "cancelCB" : document['cancelCB'],
     "exit" : "`Process Cancelled..` 😏",
     "button" : {
-        "⚙️ PDF » SPLIT ↓" : "nabilanavab",
+        "⚙️ PDF » SPLIT ↓" : "ajak4405",
         "With In Range 🦞" : "split|R",
         "Single Page 🐛" : "split|S",
         "« BACK «" : "pdf1"
@@ -423,7 +423,7 @@ pdf2IMG = {
     "process" : document['process'],
     "download" : PROGRESS['dlFile'],
     "toImage" : {
-        "⚙️ PDF » IMAGES ↓" : "nabilanavab",
+        "⚙️ PDF » IMAGES ↓" : "ajak4405",
         "🖼 IMG 🖼" : "pdf|img|img",
         "📂 DOC 📂" : "pdf|img|doc",
         "🤐 ZIP 🤐" : "pdf|img|zip",
@@ -431,7 +431,7 @@ pdf2IMG = {
         "« BACK «" : "pdf1" 
     },
     "imgRange" : {
-        "⚙️ PDF » IMAGES » {} ↓" : "nabilanavab",
+        "⚙️ PDF » IMAGES » {} ↓" : "ajak4405",
         "🙄 ALL 🙄" : "p2img|{}A",
         "🤧 RANGE 🤧" : "p2img|{}R",
         "🌝 PAGES 🌝" : "p2img|{}S",
@@ -510,7 +510,7 @@ preview = {
 
 stamp = {
     "stamp" : {
-        "⚙️ PDF » STAMP ↓" : "nabilanavab",
+        "⚙️ PDF » STAMP ↓" : "ajak4405",
         "Not For Public Release 🤧" : "pdf|stp|10",
         "For Public Release 🥱" : "pdf|stp|8",
         "Confidential 🤫" : "pdf|stp|2",
@@ -528,7 +528,7 @@ stamp = {
         "« BACK «" : "pdf1"
     },
     "stampA" : {
-        "⚙️ PDF » STAMP » COLOR ↓" : "nabilanavab",
+        "⚙️ PDF » STAMP » COLOR ↓" : "ajak4405",
         "Red ❤️" : "spP|{}|r",
         "Blue 💙" : "spP|{}|b",
         "Green 💚" : "spP|{}|g",
@@ -588,7 +588,7 @@ It might take some time..```💛""",
     "fileNm" : """Old Filename: {}
 New Filename: {}""",
     "rotate" : {
-        "⚙️ PDF » ROTATE ↓" : "nabilanavab",
+        "⚙️ PDF » ROTATE ↓" : "ajak4405",
         "90°" : "work|rot90",
         "180°" : "work|rot180",
         "270°" : "work|rot270",
@@ -596,7 +596,7 @@ New Filename: {}""",
         "« BACK «" : "pdf1"
     },
     "txt" : {
-        "⚙️ PDF » TXT ↓" : "nabilanavab",
+        "⚙️ PDF » TXT ↓" : "ajak4405",
         "📜 MESSAGE 📜" : "work|M",
         "🧾 TXT FILE 🧾" : "work|T",
         "🌐 HTML 🌐" : "work|H",
@@ -636,7 +636,7 @@ pdf2TXT = {
     "TEXT" : "`Create PDF From Text Messages »`",
     "start" : "Started Converting txt to Pdf..🎉",
     "font_btn" : {
-        "TXT@PDF » SET FONT" : "nabilanavab",
+        "TXT@PDF » SET FONT" : "ajak4405",
         "Times" : "pdf|font|t",
         "Courier" : "pdf|font|c",
         "Helvetica (Default)" : "pdf|font|h",
@@ -645,7 +645,7 @@ pdf2TXT = {
         "🚫 CLOSE 🚫" : "close|me"
     },
     "size_btn" : {
-        "TXT@PDF » {} » SET SCALE" : "nabilanavab",
+        "TXT@PDF » {} » SET SCALE" : "ajak4405",
         "Portarate" : "t2p|{}|p",
         "Landscape" : "t2p|{}|l",
         "« Back «": "pdf|T2P"
@@ -691,8 +691,8 @@ getFILE = {
     "wait" : "Wait.. Let me.. 😜",
     "inWork" : PROGRESS['workInP'],
     "big" : "Send PDF url less than {}mb",
-    "dl" : {"📥 ..DOWNLOADING.. 📥" : "nabilanavab"},
-    "up" : {"📤 ..UPLOADING..  📤" : "nabilanavab"},
+    "dl" : {"📥 ..DOWNLOADING.. 📥" : "ajak4405"},
+    "up" : {"📤 ..UPLOADING..  📤" : "ajak4405"},
     "complete" : {"😎 COMPLETED 😎" : f"{str(settings.SOURCE_CODE)}"}
 }
 
@@ -717,14 +717,14 @@ wa = {
     "add" : "Adding watermark to PDF File 💩",
     "waDL" : "__Getting watermark File..__ 🙄",
     "type" : {
-        "⚙️ PDF » WATERMARK ↓" : "nabilanavab",
+        "⚙️ PDF » WATERMARK ↓" : "ajak4405",
         "TEXT" : "pdf|wa|txt",
         "IMAGE" : "pdf|wa|img",
         "PDF" : "pdf|wa|pdf",
         "« BACK «" : "pdf2"
     },
     "op" : {
-        "⚙️ PDF » WATERMARK » {} » OPCACiTY ↓" : "nabilanavab",
+        "⚙️ PDF » WATERMARK » {} » OPCACiTY ↓" : "ajak4405",
         "10 %":"pdf|wa|{}|o01",
         "20 %":"pdf|wa|{}|o02",
         "30 %":"pdf|wa|{}|o03",
@@ -738,7 +738,7 @@ wa = {
         "« BACK «" : "pdf|wa"
     },
     "po" : {
-        "⚙️ PDF » WATERMARK » POSiTiON ↓" : "nabilanavab",
+        "⚙️ PDF » WATERMARK » POSiTiON ↓" : "ajak4405",
         "᠎᠎᠎ " : "wa|{0}|{1}|TL",
         "᠎᠎   " : "wa|{0}|{1}|TM",
         "᠎᠎ " : "wa|{0}|{1}|TR",
@@ -773,8 +773,8 @@ comb = {
 
 inline_query = {
     "capt" : "SET LANGUAGE ⚙️",
-    "des" : "By: @nabilanavab ❤",
-    "TOP" : { "Now, Select Language ⮷" : "nabilanavab" },
+    "des" : "By: @ajak4405 ❤",
+    "TOP" : { "Now, Select Language ⮷" : "ajak4405" },
 }
 
 LINK = {
@@ -811,7 +811,7 @@ __Ensures the confidentiality of the message by preventing its forwarding and sa
 
 DELETE = {
     "button" : {
-        "⚙️ PDF » SPLIT ↓" : "nabilanavab",
+        "⚙️ PDF » SPLIT ↓" : "ajak4405",
         "With In Range 🦞" : "split|dR",
         "Single Page 🐛" : "split|dS",
         "« BACK «" : "pdf1"

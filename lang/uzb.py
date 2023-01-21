@@ -1,5 +1,5 @@
-# LANG: HINDI [UZBEKISTAN 🇺🇿] LANG CODE: HND                       >>  copyright ©️ 2021 nabilanavab  <<                                         fileName : lang/uzb.py
-#                                              Thank: nabilanavab                                           E-mail: nabilanavab@gmail.com
+# LANG: HINDI [UZBEKISTAN 🇺🇿] LANG CODE: HND                       >>  copyright ©️ 2021 ajak4405  <<                                         fileName : lang/uzb.py
+#                                              Thank: ajak4405                                           E-mail: ajak4405@gmail.com
 
 from configs.config import settings
 
@@ -53,30 +53,30 @@ Pdf faylini o'zgartirish:
 }
 
 SETTINGS = {
-    "default" : ["STANDART ❌", "MAXSUS ✅"], "chgLang" : {"SOZLAMALAR ⚙️ » TILNI O'ZGARTIRISH 🌐" : "nabilanavab"},
+    "default" : ["STANDART ❌", "MAXSUS ✅"], "chgLang" : {"SOZLAMALAR ⚙️ » TILNI O'ZGARTIRISH 🌐" : "ajak4405"},
     "error" : "Maʼlumotlar bazasidan maʼlumotlarni olishda nimadir xato ketdi", "lang" : "Endi, xohlagan tilni tanlang...",
     "ask" : ["Endi, Menga yuboring..", "Endi, Menga yuboring... 😅\n\nTez.! Matnni ko'rib chiqishga vaqtim yo'q.. 😏\n\n/bekor qilish: bekor qilish"],
      "askApi" : "\n\nQuyidagi havolani oching va menga maxfiy kodni yuboring:", "waitApi" : {"Havolani ochish ✅" : "https://www.convertapi.com/a/signin"},
-    "wait" : {"Kutilmoqda.. 🥱" : "nabilanavab"}, "back" : {"« BOSH SAHIFA «" : "Home|B2S"}, "errorCB" : {"« BOSH SAHIFA «" : "Home|B2A"},
+    "wait" : {"Kutilmoqda.. 🥱" : "ajak4405"}, "back" : {"« BOSH SAHIFA «" : "Home|B2S"}, "errorCB" : {"« BOSH SAHIFA «" : "Home|B2A"},
     "result" : ["Sozlamalarni yangilab bo'lmadi ❌", "Sozlamalar muvaffaqqiyatli yangilandi ✅"], "cant" : "Ushbu funksiyadan foydalanib bo'lmaydi ❌",
     "feedback" : "Sizga oʻxshagan Ajoyib mijozlar sharhlari boshqalarga yordam beradi.\n@azik_developer"
                  "\n\nXatolikni xabar berish {} til:\n`• Maxsus til\n• Xato xabar\n• Yangi xabar`",
     "feedbtn" : {"Til xatosi haqida xabar berish" : settings.REPORT},
     "thumb" : [
-        {"SOZLAMA ⚙️ » ESKIZ 📷" : "nabilanavab", "♻ QO'SHISH ♻" : "set|thumb+", "« BOSH SAHIFA «" : "Home|B"},
-        {"SOZLAMA ⚙️ » ESKIZ 📷" : "nabilanavab", "♻ ALMASHTIRISH ♻" : "set|thumb+", "🗑 O'CHIRISH 🗑" : "set|thumb-", "« BOSH SAHIFA «" : "Home|B2S"}
+        {"SOZLAMA ⚙️ » ESKIZ 📷" : "ajak4405", "♻ QO'SHISH ♻" : "set|thumb+", "« BOSH SAHIFA «" : "Home|B"},
+        {"SOZLAMA ⚙️ » ESKIZ 📷" : "ajak4405", "♻ ALMASHTIRISH ♻" : "set|thumb+", "🗑 O'CHIRISH 🗑" : "set|thumb-", "« BOSH SAHIFA «" : "Home|B2S"}
     ],
     "fname" : [
-        {"SOZLAMA ⚙️ » FNAME 📷" : "nabilanavab", "♻ QO'SHISH ♻" : "set|fname+", "« BOSH SAHIFA «" : "Home|B2S"},
-        {"SOZLAMA ⚙️ » FNAME 📷" : "nabilanavab", "♻ ALMASHTIRISH ♻" : "set|fname+", "🗑 O'CHIRISH 🗑" : "set|fname-", "« BOSH SAHIFA «" : "Home|B2S"}
+        {"SOZLAMA ⚙️ » FNAME 📷" : "ajak4405", "♻ QO'SHISH ♻" : "set|fname+", "« BOSH SAHIFA «" : "Home|B2S"},
+        {"SOZLAMA ⚙️ » FNAME 📷" : "ajak4405", "♻ ALMASHTIRISH ♻" : "set|fname+", "🗑 O'CHIRISH 🗑" : "set|fname-", "« BOSH SAHIFA «" : "Home|B2S"}
     ],
     "api" : [
-        {"SOZLAMA ⚙️ » API 📷" : "nabilanavab", "♻ QO'SHISH ♻" : "set|api+", "« BOSH SAHIFA «" : "Home|B2S"},
-        {"SOZLAMA ⚙️ » API 📷" : "nabilanavab", "♻ ALMASHTIRISH ♻" : "set|api+", "🗑 O'CHIRISH 🗑" : "set|api-", "« BOSH SAHIFA «" : "Home|B2S"}
+        {"SOZLAMA ⚙️ » API 📷" : "ajak4405", "♻ QO'SHISH ♻" : "set|api+", "« BOSH SAHIFA «" : "Home|B2S"},
+        {"SOZLAMA ⚙️ » API 📷" : "ajak4405", "♻ ALMASHTIRISH ♻" : "set|api+", "🗑 O'CHIRISH 🗑" : "set|api-", "« BOSH SAHIFA «" : "Home|B2S"}
     ],
     "capt" : [
-        {"SOZLAMA ⚙️ » MAXSUS NOM 📷" : "nabilanavab", "♻ QO'SHISH ♻" : "set|capt+", "« BOSH SAHIFA «" : "Home|B2S"},
-        {"SOZLAMA ⚙️ » MAXSUS NOM 📷" : "nabilanavab", "♻ ALMASHTIRISH ♻" : "set|capt+", "🗑 O'CHIRISH 🗑" : "set|capt-", "« BOSH SAHIFA «" : "Home|B2S"}
+        {"SOZLAMA ⚙️ » MAXSUS NOM 📷" : "ajak4405", "♻ QO'SHISH ♻" : "set|capt+", "« BOSH SAHIFA «" : "Home|B2S"},
+        {"SOZLAMA ⚙️ » MAXSUS NOM 📷" : "ajak4405", "♻ ALMASHTIRISH ♻" : "set|capt+", "🗑 O'CHIRISH 🗑" : "set|capt-", "« BOSH SAHIFA «" : "Home|B2S"}
     ]
 }
 
@@ -96,8 +96,8 @@ Bot: @azik_pdfbot 💎\n[Qo'llab quvvatlash]({settings.OWNED_CHANNEL})""",
 STATUS_MSG = {
     "HOME" : "`Endi hozirgi holatni olish uchun pastdan istalgan variantni tanlang 💱.. `",
     "_HOME" : {
-        "📊 ↓ SERVER ↓ 📊" : "nabilanavab", "📶 XOTIRA 📶" : "status|server",
-        "🥥 MA'LUMOTLAR BAZASI 🥥" : "status|db", "🌝 ↓ VRO'YXATNI OLISH ↓ 🌝": "nabilanavab",
+        "📊 ↓ SERVER ↓ 📊" : "ajak4405", "📶 XOTIRA 📶" : "status|server",
+        "🥥 MA'LUMOTLAR BAZASI 🥥" : "status|db", "🌝 ↓ VRO'YXATNI OLISH ↓ 🌝": "ajak4405",
         "💎 ADMIN 💎" : "status|admin", "👤 FOYDALANUVCHILAR 👤" : "status|users",
         "« ORQAGA «" : "Home|A"
     },
@@ -165,7 +165,7 @@ checkPdf = {
 PROGRESS = {
     "progress" : """**\nTugalllandi ✅ : **{0}/{1}\n**Tezligi 🚀:** {2}/s\n**Qolgan vaqt ⏳:** {3}""",
     "dlImage" : "`Rasmingiz yuklab olinmoqda..⏳`", "upFile" : "`Sizga yuborilmoqda..`📤",
-    "dlFile" : "`Faylingiz yuklab olinmoqda..` 📥", "upFileCB" : {"📤 .. YUBORILMOQDA.. 📤" : "nabilanavab"},
+    "dlFile" : "`Faylingiz yuklab olinmoqda..` 📥", "upFileCB" : {"📤 .. YUBORILMOQDA.. 📤" : "ajak4405"},
     "workInP" : "ISHLAB CHIQILMOQDA.. 🙇", "refresh" : {"♻️ Qayta urinish ♻️" : "{}"},
     "takeTime" : """```⚙️ Ish davom etmoqda..`\n`Bu biroz vaqt olishi mumkin..```💛""",
     "cbPRO_D" : ["📤 Yuklab olinmoqda: {:.2f}% 📤", "🎯 BEKOR QILISH 🎯"], "cbPRO_U" : ["📤 YUKLANDI: {:.2f}% 📤", "🎯 BEKOR QILISH 🎯"]
@@ -174,7 +174,7 @@ PROGRESS = {
 GENERATE = {
     "deleteQueue" : "`Navbat muvaffaqqiyatli o'chirildi..`🤧", "noQueue" : "`Navbat topilmadi..`😲",
     "noImages" : "Rasm topilmadi.!! 😒", "getFileNm" : "Endi menga fayl nomini yuboring 😒: ",
-    "geting" : "Fayl Nomi: `{}`\nSahifalar: `{}`ta", "getingCB" : {"📚 PDF YARATILMOQDA.." : "nabilanavab"},
+    "geting" : "Fayl Nomi: `{}`\nSahifalar: `{}`ta", "getingCB" : {"📚 PDF YARATILMOQDA.." : "ajak4405"},
     "currDL" : "Yuklab olingan {} rasm 🥱"
 }
 
@@ -184,7 +184,7 @@ document = {
     "takeTime" : PROGRESS['takeTime'], "upFile" : PROGRESS['upFile'], "dlImage" : PROGRESS['dlImage'],
     "big" : """Haddan tashqari yuk tufayli, admin pdf fayllar uchun {}mb ni cheklaydi 🙇
 \n`Iltimos, menga {}mb hajmidan kichikroq fayl yuboring` 🙃""",
-    "bigCB" : {"💎 2 Gb qo'llab-quvvatlash botini yarating 💎" : "https://github.com/nabilanavab/ilovepdf"},
+    "bigCB" : {"💎 2 Gb qo'llab-quvvatlash botini yarating 💎" : "https://github.com/ajak4405/ilovepdf"},
     "imageAdded" : """`Qo'shildi {} sahifa sizning PDFingizga..`🤓\n\nFaylNomi: `{}.pdf`""",
     "setHdImg" : """Endi PDF formatiga tasvir HD rejimida 😈""",
     "setDefault" : {"« Standart sifatga qaytish «" : "close|hd"},
@@ -202,7 +202,7 @@ split = {
     "inWork" : PROGRESS['workInP'], "cancelCB" : document['cancelCB'],
     "download" : PROGRESS['dlFile'], "exit" : "`Jarayon bekor qilindi..` 😏",
     "button" : {
-        "⚙️ PDF » KESISH ↓" : "nabilanavab", "Sahifalar soni bilan 🦞" : "split|R",
+        "⚙️ PDF » KESISH ↓" : "ajak4405", "Sahifalar soni bilan 🦞" : "split|R",
         "Yakka sahifalar 🐛" : "split|S", "« ORQAGA «" : "pdf"
     },
     "work" : ["Range", "Single"], "over" : "`5 marta urinish.. Jarayon bekor qilindi..`😏",
@@ -223,12 +223,12 @@ pdf2IMG = {
     "inWork" : PROGRESS['workInP'], "process" : document['process'],
     "download" : PROGRESS['dlFile'], "uploadfile" : split["upload"],
     "toImage" : {
-        "⚙️ PDF » RASMGA O'TKAZISH ↓" : "nabilanavab", "🖼 RASM SHAKLDA 🖼" : "pdf|img|img",
+        "⚙️ PDF » RASMGA O'TKAZISH ↓" : "ajak4405", "🖼 RASM SHAKLDA 🖼" : "pdf|img|img",
         "📂 FAYL SHAKLDA 📂" : "pdf|img|doc", "🤐 ZIP SHAKLDA 🤐" : "pdf|img|zip",
         "🎯 TAR SHAKLDA 🎯" : "pdf|img|tar","« ORQAGA «" : "pdf" 
     },
     "imgRange" : {
-        "⚙️ PDF » RASMGA O'TKAZISH » {} ↓" : "nabilanavab", "🙄 HAMMASINI 🙄" : "p2img|{}A",
+        "⚙️ PDF » RASMGA O'TKAZISH » {} ↓" : "ajak4405", "🙄 HAMMASINI 🙄" : "p2img|{}A",
         "🤧 ORALIQ BILAN 🤧" : "p2img|{}R", "🌝 SAHIFALAR BILAN 🌝" : "p2img|{}S", "« ORQAGA «" : "pdf|img"
     },
     "over" : "`5 marta urinish.. Jarayon bekor qilindi..`😏",
@@ -281,7 +281,7 @@ preview = {
 
 stamp = {
     "stamp" : {
-        "⚙️ PDF » PECHAT ↓" : "nabilanavab",
+        "⚙️ PDF » PECHAT ↓" : "ajak4405",
         "Not For Public Release 🤧" : "pdf|stp|10",
         "For Public Release 🥱" : "pdf|stp|8",
         "Confidential 🤫" : "pdf|stp|2", "Departmental 🤝" : "pdf|stp|3",
@@ -293,7 +293,7 @@ stamp = {
         "« ORQAGA «" : "pdf"
     },
     "stampA" : {
-        "⚙️ PDF » PECHAT » RANGI ↓" : "nabilanavab",
+        "⚙️ PDF » PECHAT » RANGI ↓" : "ajak4405",
         "Qizil ❤️" : "spP|{}|r", "Ko'k 💙" : "spP|{}|b",
         "Yashil 💚" : "spP|{}|g", "Sariq 💛" : "spP|{}|c1",
         "Pushti 💜" : "spP|{}|c2", "Havorang 💚" : "spP|{}|c3",
@@ -325,11 +325,11 @@ work = {
     "pdfTxt" : "⚙️ `Matn chiqarib olinmoqda.. 🐾\nBu biroz vaqt olishi mumkin..`💛",
     "fileNm" : "Eski fayl nomi: {}\nYangi fayl nomi: {}",
     "rotate" : {
-        "⚙️ PDF » AYLANTIRISH ↓" : "nabilanavab", "90°" : "work|rot90", "180°" : "work|rot180",
+        "⚙️ PDF » AYLANTIRISH ↓" : "ajak4405", "90°" : "work|rot90", "180°" : "work|rot180",
         "270°" : "work|rot270", "360°" : "work|rot360", "« ORQAGA «" : "pdf"
     },
     "txt" : {
-        "⚙️ PDF » MATN QILISH ↓" : "nabilanavab", "📜 XABAR 📜" : "work|M", "🧾 TXT FAYL 🧾" : "work|T",
+        "⚙️ PDF » MATN QILISH ↓" : "ajak4405", "📜 XABAR 📜" : "work|M", "🧾 TXT FAYL 🧾" : "work|T",
         "🌐 HTML 🌐" : "work|H", "🎀 JSON 🎀" : "work|J", "« ORQAGA «" : "pdf"
     }
 }
@@ -350,10 +350,10 @@ pdf2TXT = {
     "upload" : PROGRESS["upFile"], "exit" : split['exit'], "nothing" : "Yaratishga hech nima yoq.. 😏",
     "TEXT" : "`Matndan PDF yaratish »`", "start" : "txt faylini Pdf ga aylantirish boshlandi..🎉",
     "font_btn" : {
-        "TXT@PDF » SHRIFTNI TANLASH" : "nabilanavab", "Times" : "pdf|font|t", "Courier" : "pdf|font|c", "Helvetica (Default)" : "pdf|font|h",
+        "TXT@PDF » SHRIFTNI TANLASH" : "ajak4405", "Times" : "pdf|font|t", "Courier" : "pdf|font|c", "Helvetica (Default)" : "pdf|font|h",
         "Symbol" : "pdf|font|s", "Zapfdingbats" : "pdf|font|z", "🚫 YOPISH 🚫" : "close|me"
     },
-    "size_btn" : { "TXT@PDF » {} » jOYLASHISH TANLANG" : "nabilanavab", "To'gri" : "t2p|{}|p", "O'nggag burilgan" : "t2p|{}|l", "« Orqaga «": "pdf|T2P"},
+    "size_btn" : { "TXT@PDF » {} » jOYLASHISH TANLANG" : "ajak4405", "To'gri" : "t2p|{}|p", "O'nggag burilgan" : "t2p|{}|l", "« Orqaga «": "pdf|T2P"},
     "askT" : "__MATNNI PDF QILISH » Endi, iltimos sarlavha kiritng:__\n\n/exit __bekor qilish uchun__\n/skip __o'tkazib yuborish__",
     "askC" : "__MATNNI PDF QILISH » Now, Iltimos, paragrafni kiriting {}:__\n\n/exit __bekor qilish uchunl__\n/create __yaratish uchun__"
 }
@@ -369,7 +369,7 @@ URL = {
 
 getFILE = {
     "inWork" : PROGRESS['workInP'], "big" : "pdf urlni {}mb dan kamroq yuborish", "wait" : "Kutib turing.. Menga ruxsat bering.. 😜",
-    "dl" : {"📥 ..YUKLASH.. 📥" : "nabilanavab"}, "up" : {"📤 ..YUKLASH.. 📤" : "nabilanavab"},
+    "dl" : {"📥 ..YUKLASH.. 📥" : "ajak4405"}, "up" : {"📤 ..YUKLASH.. 📤" : "ajak4405"},
     "complete" : {"😎 COMPLETED 😎" : f"{str(settings.SOURCE_CODE)}"}
 }
 
@@ -379,5 +379,5 @@ cbAns = [
 ]
 
 inline_query = {
-    "TOP" : { "Endi tilni Tanlang" : "nabilanavab" }, "capt" : "TILI SOZLASH ⚙️", "des" : "By: @nabilanavab ❤"
+    "TOP" : { "Endi tilni Tanlang" : "ajak4405" }, "capt" : "TILI SOZLASH ⚙️", "des" : "By: @ajak4405 ❤"
 }

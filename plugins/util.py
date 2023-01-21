@@ -1,5 +1,5 @@
 # fileName : plugins/util.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 
 import os
 from configs.db       import myID
@@ -102,4 +102,4 @@ async def editDICT(inDir:"dict", value=False, front=False) -> "dict":
             outDir[i] = j.format(value[0], value[1])
     return outDir
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

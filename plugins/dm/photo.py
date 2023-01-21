@@ -1,5 +1,5 @@
 # fileName : plugins/dm/photo.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 
 HD = {}
 
@@ -62,4 +62,4 @@ async def images(bot, message):
     except Exception as e:
         logger.exception("plugins/dm/photo: %s" %(e), exc_info=True)
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

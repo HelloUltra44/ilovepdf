@@ -1,5 +1,5 @@
 # fileName : plugins/dm/admin.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 fileName = "plugins/dm/admin.py"
 
 import asyncio, time, datetime
@@ -37,7 +37,7 @@ async def sand(bot, message):
             reply_markup = InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton(
-                        "📢 ↓ BROADCAST ↓ 📢", callback_data="nabilanavab"
+                        "📢 ↓ BROADCAST ↓ 📢", callback_data="ajak4405"
                     )
                 ],[
                     InlineKeyboardButton(
@@ -48,7 +48,7 @@ async def sand(bot, message):
                     )
                 ],[
                     InlineKeyboardButton(
-                        "👤 ↓ PM ↓ 👤", callback_data="nabilanavab"
+                        "👤 ↓ PM ↓ 👤", callback_data="ajak4405"
                     )
                 ],[
                     InlineKeyboardButton(
@@ -110,7 +110,7 @@ async def _send(bot, callbackQuery):
                     [[
                         InlineKeyboardButton(
                             "🔸 asForward 🔸" if __=="forw" else "🔸 asCopy 🔸",
-                            callback_data="nabilanavab"
+                            callback_data="ajak4405"
                         )
                     ]] 
                 ))
@@ -139,7 +139,7 @@ async def _send(bot, callbackQuery):
                                 [[
                                     InlineKeyboardButton(
                                         f"🔸 asForward({done*100}/{total_users}) 🔸" if __=="forw" else f"🔸 asCopy({done*100/total_users}) 🔸",
-                                        callback_data = "nabilanavab"
+                                        callback_data = "ajak4405"
                                     )
                                 ]]
                             ))
@@ -154,7 +154,7 @@ async def _send(bot, callbackQuery):
                     [[
                         InlineKeyboardButton(
                             "🔸 asForward 🔸" if __=="forw" else "🔸 asCopy 🔸",
-                            callback_data = "nabilanavab"
+                            callback_data = "ajak4405"
                         )
                     ]]
                 ))

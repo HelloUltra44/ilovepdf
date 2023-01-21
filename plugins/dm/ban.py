@@ -1,5 +1,5 @@
 # fileName : plugins/dm/ban.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 
 import asyncio
 from logger import logger
@@ -182,4 +182,4 @@ async def _unbanUserCB(bot, callbackQuery):
     except Exception as e:
         logger.exception("/pl/dm/banned/unbancb %s" %(e), exc_info=True)
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

@@ -1,5 +1,5 @@
 # fileName : plugins/dm/url.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 fileName = "plugins/dm/url.py"
 
 import os
@@ -26,7 +26,7 @@ else:
     MAX_FILE_SIZE = False
 
 # url Example: https://t.me/channel/message
-#              https://t.me/nabilanavab/1
+#              https://t.me/ajak4405/1
 links = ["https://telegram.dog/", "https://t.me/", "https://telegram.me/"]
 
 @ILovePDF.on_message(filters.private & filters.incoming & filters.text)
@@ -206,4 +206,4 @@ async def _getFile(bot, callbackQuery):
         logger.exception("🐞 %s: %s" %(fileName, e), exc_info = True)
         await work(callbackQuery, "create", False)
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

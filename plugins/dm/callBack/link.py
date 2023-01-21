@@ -1,5 +1,5 @@
 # fileName : plugins/dm/callBack/link.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 fileName = "plugins/dm/callBack/link.py"
 
 import base64

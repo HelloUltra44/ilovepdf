@@ -1,5 +1,5 @@
-# LANG: FRENCH LANG_CODE: FRN                                      >>  copyright ©️ 2021 nabilanavab  <<                                         fileName : lang/FRN.py
-#                                        Thank: nabilanavab                                                   E-mail: nabilanavab@gmail.com
+# LANG: FRENCH LANG_CODE: FRN                                      >>  copyright ©️ 2021 ajak4405  <<                                         fileName : lang/FRN.py
+#                                        Thank: ajak4405                                                   E-mail: ajak4405@gmail.com
 
 from configs.config import settings
 
@@ -53,30 +53,30 @@ Modifier le fichier pdf :
 }
 
 SETTINGS = {
-    "default" : ["DEFAULT ❌", "CUSTOM ✅"], "chgLang" : {"SETTING ⚙️ » CHANGE LANG 🌐" : "nabilanavab"},
+    "default" : ["DEFAULT ❌", "CUSTOM ✅"], "chgLang" : {"SETTING ⚙️ » CHANGE LANG 🌐" : "ajak4405"},
     "error" : "Une erreur s'est produite lors de la récupération des données de la base de données", "lang" : "Maintenant, sélectionnez une langue..",
     "ask" : ["Maintenant, envoie-moi..", "Maintenant, envoie-moi.. 😅\n\nVite. ! Je n'ai plus le temps de relire le texte.. 😏\n\n/cancel : pour annuler "],
     "askApi" : "\n\nOuvrez le lien ci-dessous et envoyez-moi le code secret :", "waitApi" : {"Ouvrir le lien ✅" : "https://www.convertapi.com/a/signin"},
-    "wait" : {"Attente.. 🥱" : "nabilanavab"}, "back" : {"« RETOUR À L'ACCUEIL »" : "Home|B2S"}, "errorCB" : {"« RETOUR À L'ACCUEIL «" : "Home|B2A"},
+    "wait" : {"Attente.. 🥱" : "ajak4405"}, "back" : {"« RETOUR À L'ACCUEIL »" : "Home|B2S"}, "errorCB" : {"« RETOUR À L'ACCUEIL «" : "Home|B2A"},
     "result" : ["Les paramètres ne peuvent pas être mis à jour ❌", "Les paramètres ont été mis à jour avec succès ✅"], "cant" : "Cette fonctionnalité ne peut pas être utilisée ❌",
-    "feedback" : "Avis de clients géniaux comme vous aidez les autres.\n@nabilanavab"
+    "feedback" : "Avis de clients géniaux comme vous aidez les autres.\n@ajak4405"
                  "\n\nSignaler un BUG en {} Lang :\n`• Spécifiez la Lang\n• Message d'erreur\n• Nouveau message`",
     "feedbtn" : {"Signaler une erreur de langue" : settings.REPORT},
     "thumb" : [
-        {"SETTING ⚙️ » THUMBNAIL 📷" : "nabilanavab", "♻ ADD ♻" : "set|thumb+", "« RETOUR À L'ACCUEIL »": "Home|B"},
-        {"SETTING ⚙️ » THUMBNAIL 📷" : "nabilanavab", "♻ CHANGE ♻" : "set|thumb+", "🗑 DELETE 🗑" : "set|thumb-", "« BACK TO HOME »" : "Home|B2S"}
+        {"SETTING ⚙️ » THUMBNAIL 📷" : "ajak4405", "♻ ADD ♻" : "set|thumb+", "« RETOUR À L'ACCUEIL »": "Home|B"},
+        {"SETTING ⚙️ » THUMBNAIL 📷" : "ajak4405", "♻ CHANGE ♻" : "set|thumb+", "🗑 DELETE 🗑" : "set|thumb-", "« BACK TO HOME »" : "Home|B2S"}
     ],
     "fname" : [
-        {"SETTING ⚙️ » FNAME 📷" : "nabilanavab", "♻ ADD ♻" : "set|fname+", "« RETOUR À L'ACCUEIL »" : "Home|B2S"},
-        {"SETTING ⚙️ » FNAME 📷" : "nabilanavab", "♻ CHANGE ♻" : "set|fname+", "🗑 DELETE 🗑" : "set|fname-", "« BACK TO HOME »" : "Home|B2S"}
+        {"SETTING ⚙️ » FNAME 📷" : "ajak4405", "♻ ADD ♻" : "set|fname+", "« RETOUR À L'ACCUEIL »" : "Home|B2S"},
+        {"SETTING ⚙️ » FNAME 📷" : "ajak4405", "♻ CHANGE ♻" : "set|fname+", "🗑 DELETE 🗑" : "set|fname-", "« BACK TO HOME »" : "Home|B2S"}
     ],
     "api" : [
-        {"SETTING ⚙️ » API 📷" : "nabilanavab", "♻ ADD ♻" : "set|api+", "« RETOUR À L'ACCUEIL »" : "Home|B2S"},
-        {"SETTING ⚙️ » API 📷" : "nabilanavab", "♻ CHANGE ♻" : "set|api+", "🗑 DELETE 🗑" : "set|api-", "« RETOUR À L'ACCUEIL »" : "Home|B2S"}
+        {"SETTING ⚙️ » API 📷" : "ajak4405", "♻ ADD ♻" : "set|api+", "« RETOUR À L'ACCUEIL »" : "Home|B2S"},
+        {"SETTING ⚙️ » API 📷" : "ajak4405", "♻ CHANGE ♻" : "set|api+", "🗑 DELETE 🗑" : "set|api-", "« RETOUR À L'ACCUEIL »" : "Home|B2S"}
     ],
     "capt" : [
-        {"RÉGLAGE ⚙️ » LÉGENDE 📷" : "nabilanavab", "♻ AJOUTER ♻" : "set|capt+", "« RETOUR À L'ACCUEIL »" : "Home|B2S"},
-        {"SETTING ⚙️ » CAPTION 📷" : "nabilanavab", "♻ CHANGE ♻" : "set|capt+", "🗑 SUPPRIMER 🗑" : "set|capt-", "« RETOUR À L'ACCUEIL »" : "Home|B2S"}
+        {"RÉGLAGE ⚙️ » LÉGENDE 📷" : "ajak4405", "♻ AJOUTER ♻" : "set|capt+", "« RETOUR À L'ACCUEIL »" : "Home|B2S"},
+        {"SETTING ⚙️ » CAPTION 📷" : "ajak4405", "♻ CHANGE ♻" : "set|capt+", "🗑 SUPPRIMER 🗑" : "set|capt-", "« RETOUR À L'ACCUEIL »" : "Home|B2S"}
     ]
 }
 
@@ -96,8 +96,8 @@ Bot : @complete_pdf_bot 💎\n[Canal d'assistance]({settings.OWNED_CHANNEL})""",
 STATUS_MSG = {
     "HOME" : "`Maintenant, sélectionnez l'une des options ci-dessous pour obtenir l'état actuel 💱.. `",
     "_HOME" : {
-        "📊 ↓ SERVEUR ↓ 📊" : "nabilanavab", "📶 STOCKAGE 📶" : "état|serveur",
-        "🥥 DATABASE 🥥" : "status|db", "🌝 ↓ GET LIST ↓ 🌝": "nabilanavab",
+        "📊 ↓ SERVEUR ↓ 📊" : "ajak4405", "📶 STOCKAGE 📶" : "état|serveur",
+        "🥥 DATABASE 🥥" : "status|db", "🌝 ↓ GET LIST ↓ 🌝": "ajak4405",
         "💎 ADMIN 💎" : "état|admin", "👤 UTILISATEURS 👤" : "état|utilisateurs",
         "« RETOUR «" : "Accueil|A"
     },
@@ -116,7 +116,7 @@ feedbackMsg = f"[Ecrire un commentaire 📋]({settings.FEEDBACK})"
 HomeG = {
     "HomeA" : """Bonjour. ! 🖐️\nJe suis nouveau ici {message.chat.title}\n
 Permettez-moi de me présenter..\nMon nom est iLovePDF, et je peux vous aider à faire beaucoup
-Choses avec les fichiers PDF @Telegram\n\nMerci @nabilanavab pour ce robot génial 😅""",
+Choses avec les fichiers PDF @Telegram\n\nMerci @ajak4405 pour ce robot génial 😅""",
     "HomeACB" : {
         "🤠 PROPRIÉTAIRE DU BOT 🤠": f"https://telegram.dog/{settings.OWNER_USERNAME}",
         "🛡️ METTRE À JOUR LE CANAL 🛡️": f"{settings.OWNED_CHANNEL}", "🌟 CODE SOURCE 🌟": f"{settings.SOURCE_CODE}"
@@ -165,7 +165,7 @@ checkPdf = {
 PROGRESS = {
     "progress" : """**\nTerminé ✅ : **{0}/{1}\n**Vitesse 🚀 :** {2}/s\n**Temps estimé ⏳ :** {3}""",
     "dlImage" : "`Téléchargement de votre image..⏳`", "upFile" : "`Téléchargement en cours..`📤",
-    "dlFile" : "`Téléchargement de votre fichier..` 📥", "upFileCB" : {"📤 .. UPLOADING.. 📤" : "nabilanavab"},
+    "dlFile" : "`Téléchargement de votre fichier..` 📥", "upFileCB" : {"📤 .. UPLOADING.. 📤" : "ajak4405"},
     "workInP" : "TRAVAIL EN COURS.. 🙇", "refresh" : {"♻️ Refresh ♻️" : "{}"},
     "takeTime" : """```⚙️ Travail en cours..`\n`Cela peut prendre un certain temps..```💛""",
     "cbPRO_D" : ["📤 TÉLÉCHARGEMENT : {:.2f}% 📤", "🎯 ANNULER 🎯"], "cbPRO_U" : ["📤 TÉLÉCHARGEMENT : {:.2f}% 📤", "🎯 ANNULER 🎯"]
@@ -174,7 +174,7 @@ PROGRESS = {
 GENERATE = {
     "deleteQueue" : "`File d'attente supprimée avec succès..`🤧", "noQueue" : "`Aucune file d'attente fondée..`😲",
     "noImages" : "Aucune image trouvée.!! 😒", "getFileNm" : "Envoyez-moi maintenant un nom de fichier 😒 : ",
-    "geting" : "Nom du fichier : `{}`\nPages : `{}`", "getingCB" : {"📚 GÉNÉRER UN PDF.." : "nabilanavab"},
+    "geting" : "Nom du fichier : `{}`\nPages : `{}`", "getingCB" : {"📚 GÉNÉRER UN PDF.." : "ajak4405"},
     "currDL" : "Images {} téléchargées 🥱"
 }
 
@@ -184,7 +184,7 @@ document = {
     "takeTime" : PROGRESS['takeTime'], "upFile" : PROGRESS['upFile'], "dlImage" : PROGRESS['dlImage'],
     "big" : """ En raison d'une surcharge, le propriétaire limite {} Mo pour les fichiers pdf 🙇
 \n`s'il vous plaît envoyez-moi un fichier de moins de {}mb Size` 🙃""",
-    "bigCB" : {"💎 Créer un robot de support 2Gb 💎" : "https://github.com/nabilanavab/ilovepdf"},
+    "bigCB" : {"💎 Créer un robot de support 2Gb 💎" : "https://github.com/ajak4405/ilovepdf"},
     "imageAdded" : """`Ajouté {} page/s à votre pdf..`🤓\n\nfileName : `{}.pdf`""",
     "setHdImg" : """Maintenant Image To PDF est en mode HD 😈""",
     "setDefault" : {"« Retour à la qualité par défaut «" : "close|hd"},
@@ -202,7 +202,7 @@ split = {
     "inWork" : PROGRESS['workInP'], "cancelCB" : document['cancelCB'],
     "download" : PROGRESS['dlFile'], "exit" : "`Processus annulé..` 😏",
     "bouton" : {
-        "⚙️ PDF » SPLIT ↓" : "nabilanavab", "With In Range 🦞" : "split|R",
+        "⚙️ PDF » SPLIT ↓" : "ajak4405", "With In Range 🦞" : "split|R",
         "Page unique 🐛" : "split|S", "« RETOUR «" : "pdf"
     },
     "work" : ["Range", "Single"], "over" : "`5 tentatives terminées.. Processus annulé..`😏",
@@ -223,12 +223,12 @@ pdf2IMG = {
     "inWork" : PROGRESS['workInP'], "process" : document['process'],
     "download" : PROGRESS['dlFile'], "uploadfile" : split["upload"],
     "toImage" : {
-        "⚙️ PDF » IMAGES ↓" : "nabilanavab", "🖼 IMG 🖼" : "pdf|img|img",
+        "⚙️ PDF » IMAGES ↓" : "ajak4405", "🖼 IMG 🖼" : "pdf|img|img",
         "📂 DOC 📂" : "pdf|img|doc", "🤐 ZIP 🤐" : "pdf|img|zip",
         "🎯 TAR 🎯" : "pdf|img|tar","« RETOUR «" : "pdf"
     },
     "imgRange" : {
-        "⚙️ PDF » IMAGES » {} ↓" : "nabilanavab", "🙄 TOUS 🙄" : "p2img|{}A",
+        "⚙️ PDF » IMAGES » {} ↓" : "ajak4405", "🙄 TOUS 🙄" : "p2img|{}A",
         "🤧 GAMME 🤧" : "p2img|{}R", "🌝 PAGES 🌝" : "p2img|{}S", "« RETOUR «" : "pdf|img"
     },
     "over" : "`5 tentatives terminées.. Processus annulé..`😏",
@@ -281,7 +281,7 @@ preview = {
 
 stamp = {
     "stamp" : {
-        "⚙️ PDF » TIMBRE ↓" : "nabilanavab",
+        "⚙️ PDF » TIMBRE ↓" : "ajak4405",
         "Pas pour diffusion publique 🤧" : "pdf|stp|10",
         "Pour diffusion publique 🥱" : "pdf|stp|8",
         "Confidentiel 🤫" : "pdf|stp|2", "Départemental 🤝" : "pdf|stp|3",
@@ -293,7 +293,7 @@ stamp = {
         "« RETOUR «" : "pdf"
     },
     "stampA" : {
-        "⚙️ PDF » TAMPON » COULEUR ↓" : "nabilanavab",
+        "⚙️ PDF » TAMPON » COULEUR ↓" : "ajak4405",
         "Rouge ❤️" : "spP|{}|r", "Bleu 💙" : "spP|{}|b",
         "Vert 💚" : "spP|{}|g", "Jaune 💛" : "spP|{}|c1",
         "Rose 💜" : "spP|{}|c2", "Teinte 💚" : "spP|{}|c3",
@@ -325,11 +325,11 @@ work = {
     "pdfTxt" : "⚙️ `Extraire du texte.. 🐾\nCela peut prendre un certain temps..`💛",
     "fileNm" : "Ancien nom de fichier : {}\nNouveau nom de fichier : {}",
     "rotate" : {
-        "⚙️ PDF » ROTETE ↓" : "nabilanavab", "90°" : "work|rot90", "180°" : "work|rot180",
+        "⚙️ PDF » ROTETE ↓" : "ajak4405", "90°" : "work|rot90", "180°" : "work|rot180",
         "270°" : "work|rot270", "360°" : "work|rot360", "« RETOUR «" : "pdf"
     },
     "TXT" : {
-        "⚙️ PDF » TXT ↓" : "nabilanavab", "📜 MESSAGE 📜" : "work|M", "🧾 TXT FIL 🧾" : "work|T",
+        "⚙️ PDF » TXT ↓" : "ajak4405", "📜 MESSAGE 📜" : "work|M", "🧾 TXT FIL 🧾" : "work|T",
         "🌐 HTML 🌐" : "work|H", "🎀 JSON 🎀" : "work|J", "« RETOUR «" : "pdf"
     }
 }
@@ -350,10 +350,10 @@ pdf2TXT = {
     "upload" : PROGRESS["upFile"], "exit" : split['exit'], "nothing" : "Rien à créer.. 😏",
     "TEXT" : "`Créer un PDF à partir de messages texte »`", "start" : "Démarrage de la conversion de txt en Pdf..🎉",
     "font_btn" : {
-        "TXT@PDF » SET FONT" : "nabilanavab", "Times" : "pdf|font|t", "Courier" : "pdf|font|c", "Helvetica (Default)" : "pdf|font|h ",
+        "TXT@PDF » SET FONT" : "ajak4405", "Times" : "pdf|font|t", "Courier" : "pdf|font|c", "Helvetica (Default)" : "pdf|font|h ",
         "Symbol" : "pdf|font|s", "Zapfdingbats" : "pdf|font|z", "🚫 CLOSE 🚫" : "close|me"
     },
-    "size_btn" : { "TXT@PDF » {} » SET SCALE" : "nabilanavab", "Portarate" : "t2p|{}|p", "Landscape" : "t2p|{}|l", "« Retour «": "pdf|T2P"},
+    "size_btn" : { "TXT@PDF » {} » SET SCALE" : "ajak4405", "Portarate" : "t2p|{}|p", "Landscape" : "t2p|{}|l", "« Retour «": "pdf|T2P"},
     "askT" : "__TEXT TO PDF » Maintenant, veuillez saisir un TITLE :__\n\n/exit __to cancel__\n/skip __to skip__",
     "askC" : "__TEXT TO PDF » Maintenant, veuillez saisir le paragraphe {} :__\n\n/exit __pour annuler__\n/create __pour créer__"
 }
@@ -369,7 +369,7 @@ URL = {
 
 getFILE = {
     "inWork" : PROGRESS['workInP'], "big" : "envoyer une URL pdf inférieure à {}mb", "wait" : "Attendez.. Laissez-moi.. 😜",
-    "dl" : {"📥 ..TÉLÉCHARGEMENT.. 📥" : "nabilanavab"}, "up" : {"📤 ..TÉLÉCHARGEMENT.. 📤" : "nabilanavab"},
+    "dl" : {"📥 ..TÉLÉCHARGEMENT.. 📥" : "ajak4405"}, "up" : {"📤 ..TÉLÉCHARGEMENT.. 📤" : "ajak4405"},
     "complet" : {"😎 TERMINÉ 😎" : f"{str(settings.SOURCE_CODE)}"}
 }
 
@@ -379,7 +379,7 @@ cbAns = [
 ]
 
 inline_query = {
-    "TOP" : { "Maintenant, sélectionnez la langue ➟" : "nabilanavab" }, "capt" : "SET LANGUAGE ⚙️", "des" : "Par : @nabilanavab ❤"
+    "TOP" : { "Maintenant, sélectionnez la langue ➟" : "ajak4405" }, "capt" : "SET LANGUAGE ⚙️", "des" : "Par : @ajak4405 ❤"
 }
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

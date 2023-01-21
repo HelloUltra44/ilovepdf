@@ -1,5 +1,5 @@
 # fileName : plugins/dm/callBack/merge.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 fileName = "plugins/dm/callBack/merge.py"
 
 MERGE = {}
@@ -46,11 +46,11 @@ async def _merge(bot, callbackQuery):
         MERGEsize[chat_id] = [callbackQuery.message.reply_to_message.document.file_size]
         
         # REQUEST FOR OTHER PDFS FOR MERGING
-        nabilanavab = True; size = 0
-        while(nabilanavab):
+        ajak4405 = True; size = 0
+        while(ajak4405):
             if len(MERGE[chat_id]) >= 10:
                 await callbackQuery.message.reply(CHUNK["load"], quote=True)
-                nabilanavab = False
+                ajak4405 = False
                 break
             askPDF = await bot.ask(
                 text = CHUNK["pyromodASK"].format(len(MERGE[chat_id])),
@@ -63,7 +63,7 @@ async def _merge(bot, callbackQuery):
                 del MERGEsize[chat_id]
                 break
             if askPDF.text == "/merge":
-                nabilanavab = False
+                ajak4405 = False
                 break
             # IS SEND MESSAGE A DOCUMENT
             if askPDF.document:
@@ -79,17 +79,17 @@ async def _merge(bot, callbackQuery):
                         await callbackQuery.message.reply(
                             CHUNK["sizeLoad"] %(MAX_FILE_SIZE if MAX_FILE_SIZE else "1.8Gb")
                         )
-                        nabilanavab = False
+                        ajak4405 = False
                         break
                     # ADDING NEWLY ADDED PDF FILE ID & SIZE TO LIST
                     MERGE[chat_id].append(file_id)
                     MERGEsize[chat_id].append(file_size)
-        # nabilanavab=True ONLY IF PROCESS CANCELLED
-        if nabilanavab == True:
+        # ajak4405=True ONLY IF PROCESS CANCELLED
+        if ajak4405 == True:
             return await work(callbackQuery, "delete", False)
         
         # GET /merge, REACHES MAX FILE SIZE OR MAX NO OF PDF
-        if nabilanavab == False:
+        if ajak4405 == False:
             # DISPLAY TOTAL PDFS FOR MERGING
             dlMSG = await askPDF.reply_text(
                 CHUNK["total"].format(len(MERGE[chat_id])),
@@ -152,4 +152,4 @@ async def _merge(bot, callbackQuery):
         logger.exception("🐞 %s: %s" %(fileName, e), exc_info = True)
         await work(callbackQuery, "delete", False)
 
-# ==================================================================================================================================[ NABIL A NAVAB -> TG: nabilanavab]
+# ==================================================================================================================================[ NABIL A NAVAB -> TG: ajak4405]

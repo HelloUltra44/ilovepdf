@@ -1,5 +1,5 @@
 # fileName : plugins/dm/waste.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 
 from logger import logger
 from plugins.util import *
@@ -18,4 +18,4 @@ async def _spam(bot, message):
     except Exception as e:
         logger.exception("plugins/dm/waste: %s" %(e), exc_info=True)
 
-# ======================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ======================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

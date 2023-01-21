@@ -1,5 +1,5 @@
 # fileName: configs/db.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 
 import os
 
@@ -19,4 +19,4 @@ class dataBASE(object):
     
     MONGODB_URI = os.environ.get("MONGODB_URI", False)                       # mongoDB Url (Optional)
 
-                                                                             # Telegram: @nabilanavab
+                                                                             # Telegram: @ajak4405

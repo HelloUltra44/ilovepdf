@@ -1,5 +1,5 @@
 # fileName : plugins/dm/callBack/split.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 fileName = "plugins/dm/callBack/split.py"
 
 import os, time
@@ -37,8 +37,8 @@ async def _split(bot, callbackQuery):
         else:
             known = False
         
-        nabilanavab = True; i = 0
-        while(nabilanavab):
+        ajak4405 = True; i = 0
+        while(ajak4405):
             # REQUEST FOR PG NUMBER (MAX. LIMIT 5)
             if i >= 5:
                 await callbackQuery.message.reply(CHUNK["over"])
@@ -64,7 +64,7 @@ async def _split(bot, callbackQuery):
                     if type(start) == int and type(end) == int:
                         if (1 <= int(pageStartAndEnd[0])):
                             if (int(pageStartAndEnd[0]) < int(pageStartAndEnd[1])):
-                                nabilanavab = False
+                                ajak4405 = False
                                 break
                             else:
                                 await callbackQuery.message.reply(CHUNK["error_2"])
@@ -83,7 +83,7 @@ async def _split(bot, callbackQuery):
                             j = int(j); newList.append(j)
                         except Exception: pass
                     if newList != []:
-                         nabilanavab = False
+                         ajak4405 = False
                          break
                     else:
                         await callbackQuery.message.reply(CHUNK["error_6"])
@@ -100,7 +100,7 @@ async def _split(bot, callbackQuery):
                         start=int(start); end=int(end)
                         if (int(1) <= int(start) and int(start) < number_of_pages):
                             if (int(start) < int(end) and int(end) <= number_of_pages):
-                                nabilanavab = False
+                                ajak4405 = False
                                 break
                             else:
                                 await callbackQuery.message.reply(CHUNK["error_2"])
@@ -124,15 +124,15 @@ async def _split(bot, callbackQuery):
                         await callbackQuery.message.reply(CHUNK["error_8"].format(number_of_pages))
                         continue
                     else:
-                        nabilanavab = False
+                        ajak4405 = False
                         break
                 else:
                     await callbackQuery.message.reply(CHUNK["error_7"])
         
-        # nabilanavab == False [No Error]
-        if nabilanavab == True:
+        # ajak4405 == False [No Error]
+        if ajak4405 == True:
             return await work(callbackQuery, "delete", False)
-        if nabilanavab == False:
+        if ajak4405 == False:
             input_file = f"{cDIR}/inPut.pdf"
             output_file = f"{cDIR}/outPut.pdf"
             
@@ -208,4 +208,4 @@ async def _split(bot, callbackQuery):
         logger.exception("🐞 %s: %s" %(fileName, e), exc_info = True)
         await work(callbackQuery, "delete", False)
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

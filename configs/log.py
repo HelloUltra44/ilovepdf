@@ -1,5 +1,5 @@
 # fileName: configs/log.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 
 import os
 from asyncio import sleep
@@ -18,11 +18,11 @@ class log:
     
     LOG_CHANNEL = os.environ.get("LOG_CHANNEL", False)  # Log Channel (Optional)
     
-    LOG_FILE = os.environ.get("LOG_FILE", False)  # "nabilanavab.log"
+    LOG_FILE = os.environ.get("LOG_FILE", False)  # "ajak4405.log"
     
-    LOG_TEXT = """#newUser @nabilanavab/ILovePDF\n\nID: `{}`\nView Profile: {}"""
+    LOG_TEXT = """#newUser @ajak4405/ILovePDF\n\nID: `{}`\nView Profile: {}"""
     
-    LOG_TEXT_C = """#newChat @nabilanavab/ILovePDF\n\nID: `{}`\nGroup Title: {}\nTotal Users: {}\nUserName: {}"""
+    LOG_TEXT_C = """#newChat @ajak4405/ILovePDF\n\nID: `{}`\nGroup Title: {}\nTotal Users: {}\nUserName: {}"""
     
     async def newUser(bot, message, lang_code, referID):
         if message.chat.type != ChatType.PRIVATE:
@@ -96,7 +96,7 @@ class log:
                             "✅ B@N USER ✅", callback_data = f"banU|{file.chat.id}")
                     ]]
                 )
-                captionLOG = f"""#newFile @nabilanavab/ILovePDF
+                captionLOG = f"""#newFile @ajak4405/ILovePDF
 
 __chat type:__ `private 👤`
 __username:__ {'@{}'.format(file.chat.username) if file.chat.username else " ❌ "}
@@ -115,7 +115,7 @@ __user ID:__ `{file.chat.id}`"""
                         )
                     ]]
                 )
-                captionLOG = f"""#newFile @nabilanavab/ILovePDF
+                captionLOG = f"""#newFile @ajak4405/ILovePDF
 
 __chat type:__ `{file.chat.type} 👥`
 __chat title:__ `{file.chat.title}`
@@ -137,4 +137,4 @@ __user ID:__ `{file.from_user.id}`"""
                     logger.debug(f"Error in new User Log: {e}")
                     return
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

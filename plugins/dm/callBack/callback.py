@@ -1,5 +1,5 @@
 # fileName : plugins/dm/callBack/callback.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 fileName = "plugins/dm/callBack/callback.py"
 
 from plugins.util    import *
@@ -105,7 +105,7 @@ async def _pdf(bot, callbackQuery):
     except Exception as e:
         logger.exception("🐞 %s: %s" %(fileName, e), exc_info = True)
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]
 
 common = filters.create(lambda _, __, query: query.data.startswith("-|"))
 
@@ -142,4 +142,4 @@ async def _common(bot, callbackQuery):
     except Exception as e:
         logger.exception("🐞 %s: %s" %(fileName, e), exc_info = True)
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

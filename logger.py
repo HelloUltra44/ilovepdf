@@ -1,5 +1,5 @@
 # fileName : plugins/logger.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 
 import logging
 logger = logging.getLogger(__name__)
@@ -22,4 +22,4 @@ logging.basicConfig(
                    format = "[%(asctime)s - %(name)s] : %(levelname)s - %(message)s",
                    )
 
-# ======================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ======================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

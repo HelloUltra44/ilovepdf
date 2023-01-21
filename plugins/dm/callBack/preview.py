@@ -1,5 +1,5 @@
 # fileName : plugins/dm/callBack/preview.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 fileName = "plugins/dm/callBack/preview.py"
 
 media = {}
@@ -134,4 +134,4 @@ async def _preview(bot, callbackQuery):
         await work(callbackQuery, "delete", False)
         await dlMSG.edit(CHUNK["error"].format(e), reply_markup = _)
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

@@ -1,5 +1,5 @@
 # fileName : plugins/render.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 
 import fitz, time, math
 from .util                 import *
@@ -174,7 +174,7 @@ async def cbPRO(current, t, message, total=0, typ="DOWNLOADED", cancel=False):
     if cancel:
         await message.edit_reply_markup(
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(tTXT[0].format(percentage), callback_data="nabilanavab")]
+                [[InlineKeyboardButton(tTXT[0].format(percentage), callback_data="ajak4405")]
                  ,[InlineKeyboardButton(tTXT[1].format(percentage), callback_data="close|all")]]
             ))
     else:
@@ -183,4 +183,4 @@ async def cbPRO(current, t, message, total=0, typ="DOWNLOADED", cancel=False):
                 [[InlineKeyboardButton(tTXT[0].format(percentage), callback_data="close|all")]]
             ))
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

@@ -1,5 +1,5 @@
 # fileName : Plugins/dm/txt2pdf.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 
 TXT = {}
 
@@ -42,8 +42,8 @@ async def _pgSize(bot, callbackQuery):
         CHUNK, _ = await translate(text="pdf2TXT", lang_code=lang_code)
         bla, _, __ = callbackQuery.data.split("|")
         
-        TXT[chat_id] = []; nabilanavab=True
-        while(nabilanavab):
+        TXT[chat_id] = []; ajak4405=True
+        while(ajak4405):
             # 1st value will be pdf title
             askPDF = await bot.ask(
                 text = CHUNK['askT'] ,chat_id = chat_id,
@@ -55,16 +55,16 @@ async def _pgSize(bot, callbackQuery):
                 del TXT[chat_id]
                 break
             elif askPDF.text == "/skip":
-                TXT[chat_id].append(None); nabilanavab=False
+                TXT[chat_id].append(None); ajak4405=False
             elif askPDF.text:
-                TXT[chat_id].append(f"{askPDF.text}"); nabilanavab=False
-        # nabilanavab=True ONLY IF PROCESS CANCELLED
-        if nabilanavab == True:
+                TXT[chat_id].append(f"{askPDF.text}"); ajak4405=False
+        # ajak4405=True ONLY IF PROCESS CANCELLED
+        if ajak4405 == True:
             await work(callbackQuery, "delete", False)
             del TXT[chat_id]
             return
-        nabilanavab = True
-        while(nabilanavab):
+        ajak4405 = True
+        while(ajak4405):
             # other value will be pdf para
             askPDF = await bot.ask(
                 text = CHUNK['askC'].format(len(TXT[chat_id])-1), chat_id = chat_id,
@@ -80,11 +80,11 @@ async def _pgSize(bot, callbackQuery):
                     await askPDF.reply(CHUNK['nothing'], quote=True)
                 else:
                     processMessage = await askPDF.reply(CHUNK['start'], quote=True)
-                    nabilanavab = False
+                    ajak4405 = False
             elif askPDF.text:
                 TXT[chat_id].append(f"{askPDF.text}")
-        # nabilanavab=True ONLY IF PROCESS CANCELLED
-        if nabilanavab == True:
+        # ajak4405=True ONLY IF PROCESS CANCELLED
+        if ajak4405 == True:
             await work(callbackQuery, "delete", False)
             del TXT[chat_id]
             return
@@ -121,4 +121,4 @@ async def _pgSize(bot, callbackQuery):
         await work(callbackQuery, "delete", False)
         await processMessage.edit(f"`ERROR`: __{e}__"); del TXT[chat_id]
 
-#                                                                                  Telegram: @nabilanavab
+#                                                                                  Telegram: @ajak4405

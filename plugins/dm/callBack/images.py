@@ -1,5 +1,5 @@
 # fileName : plugins/dm/callBack/images.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 fileName = "plugins/dm/callBack/images.py"
 
 media = {}
@@ -43,10 +43,10 @@ async def _extract(bot, callbackQuery):
         
         data = callbackQuery.data.split("|")[1]
         if data in ["IA", "DA", "zipA", "tarA"]:
-            nabilanavab = False
+            ajak4405 = False
         elif data in ["IR", "DR", "zipR", "tarR"]:
-            nabilanavab = True; i = 0
-            while(nabilanavab):    # 5 EXCEPTION, BREAK MERGE PROCESS
+            ajak4405 = True; i = 0
+            while(ajak4405):    # 5 EXCEPTION, BREAK MERGE PROCESS
                 if i >= 5:
                     await callbackQuery.message.reply_text(CHUNK["over"]); break
                 i += 1
@@ -72,7 +72,7 @@ async def _extract(bot, callbackQuery):
                         if 1 <= start:
                             if (start < end and known and end <= int(number_of_pages)
                                 ) or (start < end and not known):
-                                    nabilanavab = False
+                                    ajak4405 = False
                                     break
                             else:
                                 await callbackQuery.message.reply_text(CHUNK["error_2"])
@@ -85,8 +85,8 @@ async def _extract(bot, callbackQuery):
         # SINGLE PAGES
         else:
             newList = []
-            nabilanavab = True; i = 0
-            while(nabilanavab):    # 5 REQUEST LIMIT
+            ajak4405 = True; i = 0
+            while(ajak4405):    # 5 REQUEST LIMIT
                 if i >= 5:
                     await callbackQuery.message.reply_text(CHUNK["over"])
                     break
@@ -118,7 +118,7 @@ async def _extract(bot, callbackQuery):
                             if int(j) <= int(number_of_pages):
                                 newList.append(j)
                     if newList != []:
-                        nabilanavab = False
+                        ajak4405 = False
                         break
                     # AFTER SORTING (IF NO DIGIT PAGES RETURN)
                     elif newList == []:
@@ -126,7 +126,7 @@ async def _extract(bot, callbackQuery):
                         continue
                 else:
                     await callbackQuery.message.reply(CHUNK["error_7"])
-        if nabilanavab == True:
+        if ajak4405 == True:
             return await work(callbackQuery, "delete", False)
         
         input_file = f"{cDIR}/inPut.pdf"
@@ -135,7 +135,7 @@ async def _extract(bot, callbackQuery):
         canceled = await createBUTTON(btn=CHUNK["canceledCB"])
         completed = await createBUTTON(btn=CHUNK["completed"])
         
-        if nabilanavab == False:
+        if ajak4405 == False:
             # DOWNLOAD MESSAGE
             dlMSG = await callbackQuery.message.reply(text = CHUNK["download"], quote = True)
             downloadLoc = await bot.download_media(
@@ -426,4 +426,4 @@ async def _extract(bot, callbackQuery):
         logger.exception("🐞 %s: %s" %(fileName, e), exc_info = True)
         await work(callbackQuery, "delete", False)
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

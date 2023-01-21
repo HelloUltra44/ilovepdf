@@ -1,5 +1,5 @@
 # fileName : plugins/dm/callBack/refresh.py
-# copyright ©️ 2021 nabilanavab 
+# copyright ©️ 2021 ajak4405 
 fileName = "plugins/dm/callBack/refresh.py"
 
 from plugins.util              import *
@@ -71,4 +71,4 @@ async def _refresh(bot, callbackQuery):
         tTXT, _ = await translate(text = "BAN['Fool']", lang_code = lang_code)
         return await callbackQuery.answer(tTXT, show_alert = True)
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

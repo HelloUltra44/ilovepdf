@@ -1,5 +1,5 @@
 # fileName: plugins/dm/callBack/inline_query/setLang.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 fileName = "plugins/dm/callBack/inline_query/setLang.py"
 
 from plugins.util    import *
@@ -37,4 +37,4 @@ async def setLang(bot, inline_query):
     except Exception as e:
         logger.debug("Error in inline_query: %s" %(e), exc_info=True)
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

@@ -1,5 +1,5 @@
 # fileName : plugins/work.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 
 import os, shutil
 from pyrogram import enums
@@ -12,16 +12,16 @@ async def work(message, work="check", mtype=True) -> "str":
     """
     if mtype:
         if message.chat.type == enums.ChatType.PRIVATE:
-            path = f"work/nabilanavab/{message.chat.id}"
+            path = f"work/ajak4405/{message.chat.id}"
         else:
-            pat = f"work/nabilanavab/{message.chat.id}"
-            path = f"work/nabilanavab/{message.chat.id}/{message.from_user.id}"
+            pat = f"work/ajak4405/{message.chat.id}"
+            path = f"work/ajak4405/{message.chat.id}/{message.from_user.id}"
     else:
         if message.message.chat.type == enums.ChatType.PRIVATE:
-            path = f"work/nabilanavab/{message.message.chat.id}"
+            path = f"work/ajak4405/{message.message.chat.id}"
         else:
-            pat = f"work/nabilanavab/{message.message.chat.id}"
-            path = f"work/nabilanavab/{message.message.chat.id}/{message.message.from_user.id}"
+            pat = f"work/ajak4405/{message.message.chat.id}"
+            path = f"work/ajak4405/{message.message.chat.id}/{message.message.from_user.id}"
     if work == "create":
         if os.path.exists(path):
             return False    # False if work exists

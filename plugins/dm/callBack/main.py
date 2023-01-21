@@ -1,5 +1,5 @@
 # fileName : plugins/dm/callBack/main.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 fileName = "plugins/dm/callBack/main.py"
 
 import os, time, shutil, asyncio
@@ -15,7 +15,7 @@ from pyrogram.types import ForceReply
 from plugins.fncta  import thumbName, formatThumb
 from pyrogram       import enums, filters, Client as ILovePDF
 
-if nabilanavab == False:
+if ajak4405 == False:
     from plugins.dm.callBack.process import ocrPDF
 
 work = filters.create(lambda _, __, query: query.data.startswith("work"))
@@ -31,10 +31,10 @@ async def _pdf(bot, callbackQuery):
         if data == "rot360":
             return await callbackQuery.answer(CHUNK["rot360"])
         
-        # Never Work OCR if nabilanavab==True
+        # Never Work OCR if ajak4405==True
         # Deploy From Docker Files (else OCR never works)
         if data == "ocr":
-            if nabilanavab:
+            if ajak4405:
                 return await callbackQuery.answer(CHUNK["ocrError"])
             if "•" in callbackQuery.message.text:
                 number_of_pages = callbackQuery.message.text.split("•")[1]
@@ -219,4 +219,4 @@ async def _pdf(bot, callbackQuery):
         return await w(callbackQuery, "delete", False)
         await dlMSG.edit(CHUNK["document['error']"], reply_markup=clBTN)
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

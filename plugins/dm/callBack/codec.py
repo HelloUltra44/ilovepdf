@@ -1,5 +1,5 @@
 # fileName : plugins/dm/callBack/codec.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 fileName = "plugins/dm/callBack/codec.py"
 
 # just another way to convert epub files(depending on user satisfraction..)
@@ -73,4 +73,4 @@ async def _pdf(bot, callbackQuery):
         )
         await downloadMessage.edit(text = tTXT, reply_markup = tBTN)
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

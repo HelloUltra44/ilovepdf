@@ -1,5 +1,5 @@
 # fileName : plugins/fncta.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 
 import os
 from PIL import Image
@@ -77,4 +77,4 @@ async def thumbName(message, fileName, getAPI=False):
     except Exception as e:
         logger.exception("THUMB_NAME: %s" %(e), exc_info=True)
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

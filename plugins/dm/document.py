@@ -1,5 +1,5 @@
 # fileName : plugins/dm/document.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 fileName = "plugins/dm/document.py"
     
 import convertapi
@@ -234,4 +234,4 @@ async def documents(bot, message):
         logger.exception("plugins/dm/document: %s" %(e), exc_info=True)
         await work(message, "delete", True)
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

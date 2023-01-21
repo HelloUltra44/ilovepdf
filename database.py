@@ -1,5 +1,5 @@
 # fileName : database.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 
 # pip install motor
 import datetime
@@ -113,6 +113,6 @@ class Database:
         return (await self.db.command("dbstats"))['dataSize']
 
 if dataBASE.MONGODB_URI:
-    db = Database(dataBASE.MONGODB_URI, "nabilanavab-iLovePDF")
+    db = Database(dataBASE.MONGODB_URI, "ajak4405-iLovePDF")
 
-# ========================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ========================================================================[NABIL A NAVAB -> TG: ajak4405]

@@ -1,5 +1,5 @@
 # fileName : lang/__init__.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 
 from configs.config import settings
 
@@ -14,4 +14,4 @@ async def disLang(lang):
     else:
         return langList[settings.DEFAULT_LANG][0]
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

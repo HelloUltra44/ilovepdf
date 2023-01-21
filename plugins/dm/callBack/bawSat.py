@@ -1,5 +1,5 @@
 # fileName : plugins/dm/callBack/BaWsat.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 fileName = "plugins/dm/callBack/BaWsat.py"
 
 import os, time, fitz
@@ -94,4 +94,4 @@ async def watermark(bot, callbackQuery):
         logger.exception("🐞 %s: %s" %(fileName, e), exc_info = True)
         await work(callbackQuery, "delete", False)
 
-#                                                                                                                                                Telegram: @nabilanavab
+#                                                                                                                                                Telegram: @ajak4405

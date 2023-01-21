@@ -1,5 +1,5 @@
 # fileName : plugins/dm/callBack/stamp.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 fileName = "plugins/dm/callBack/stamp.py"
 
 import os, time, fitz, shutil
@@ -88,4 +88,4 @@ async def _stamp(bot, callbackQuery):
         await work(callbackQuery, "delete", False)
         await dlMSG.delete()
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

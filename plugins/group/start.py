@@ -1,5 +1,5 @@
 # fileName : plugins/group/start.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 fileName = "plugins/group/start.py"
 
 from logger         import logger

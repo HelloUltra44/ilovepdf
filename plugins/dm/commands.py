@@ -1,5 +1,5 @@
 # fileName : plugins/dm/commands.py
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 ajak4405
 
 import os, shutil
 from pdf import PDF
@@ -34,4 +34,4 @@ async def _cancelI2P(bot, message):
         trans_txt, trans_btn = await translate(text = "GENERATE['noQueue']", lang_code = lang_code)
         await message.reply_text(trans_txt, quote = True)
 
-# ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
+# ===================================================================================================================================[NABIL A NAVAB -> TG: ajak4405]

@@ -1,5 +1,5 @@
-# LANG: CHINESE LANG_CODE: CHI                                      >>  copyright ©️ 2021 nabilanavab  <<                                         fileName : lang/CHI.py
-#                                        Thank: nabilanavab                                                   E-mail: nabilanavab@gmail.com
+# LANG: CHINESE LANG_CODE: CHI                                      >>  copyright ©️ 2021 ajak4405  <<                                         fileName : lang/CHI.py
+#                                        Thank: ajak4405                                                   E-mail: ajak4405@gmail.com
 
 from configs.config import settings
 
@@ -53,30 +53,30 @@ THUMB : {}\nCAPTION : {}\n文件名 : {}""",
 }
 
 SETTINGS = {
-    "default" : ["默认❌","自定义✅"],"chgLang":{"设置⚙️ » 更改语言🌐":"nabilanavab"},
+    "default" : ["默认❌","自定义✅"],"chgLang":{"设置⚙️ » 更改语言🌐":"ajak4405"},
     "error" : "从数据库中检索数据时出现问题", "lang" : "现在,选择任何语言..",
     "ask" : ["Now, Send me..", "Now, Send me.. 😅\n\nFast.! 我没时间复习文本了.. "],
     "askApi" : "\n\n打开下面的链接并将密码发送给我:", "waitApi" : {"打开链接 ✅" : "https://www.convertapi.com/a/signin"},
-    "wait" : {"等待..🥱":"nabilanavab"},"back":{"« 返回首页 «":"Home|B2S"},"errorCB":{"« 返回首页 «":"Home|B2A"},
+    "wait" : {"等待..🥱":"ajak4405"},"back":{"« 返回首页 «":"Home|B2S"},"errorCB":{"« 返回首页 «":"Home|B2A"},
     "result" : ["设置无法更新❌", "设置更新成功✅"], "cant" : "此功能无法使用❌",
-    "feedback" : "像你这样的优秀客户的评论帮助了其他人。\n@nabilanavab"
+    "feedback" : "像你这样的优秀客户的评论帮助了其他人。\n@ajak4405"
                  "\n\n报告 {} 语言中的错误:\n`• 指定语言\n• 错误消息\n• 新消息`",
     "feedbtn" : {"Report Lang Error" : settings.REPORT},
     "thumb" : [
-        {" 设置⚙️ » 缩略图📷 " : "nabilanavab", "♻ 更改 ♻" : "set|thumb+", "« 返回首页 «" : "Home|B"},
-        {" 设置⚙️ » 缩略图📷 ":"nabilanavab","♻ 更改 ♻":"set|thumb+","🗑 删除 🗑":"set|thumb-","« 返回首页 «":"Home|B2S"}
+        {" 设置⚙️ » 缩略图📷 " : "ajak4405", "♻ 更改 ♻" : "set|thumb+", "« 返回首页 «" : "Home|B"},
+        {" 设置⚙️ » 缩略图📷 ":"ajak4405","♻ 更改 ♻":"set|thumb+","🗑 删除 🗑":"set|thumb-","« 返回首页 «":"Home|B2S"}
     ],
     "fname" : [
-        {"SETTING ⚙️ » FNAME 📷" : "nabilanavab", "♻ 更改 ♻" : "set|fname+", "« 返回首页 «" : "Home|B2S"},
-        {"SETTING ⚙️ » FNAME 📷" : "nabilanavab", "♻ 更改 ♻" : "set|fname+", "🗑 删除 🗑" : "set|fname-", "« 返回首页 «" : "Home|B2S"}
+        {"SETTING ⚙️ » FNAME 📷" : "ajak4405", "♻ 更改 ♻" : "set|fname+", "« 返回首页 «" : "Home|B2S"},
+        {"SETTING ⚙️ » FNAME 📷" : "ajak4405", "♻ 更改 ♻" : "set|fname+", "🗑 删除 🗑" : "set|fname-", "« 返回首页 «" : "Home|B2S"}
     ],
     "api" : [
-        {"SETTING ⚙️ » API 📷" : "nabilanavab", "♻ 更改 ♻" : "set|api+", "« 返回首页 «" : "Home|B2S"},
-        {"SETTING ⚙️ » API 📷" : "nabilanavab", "♻ 更改 ♻" : "set|api+", "🗑 删除 🗑" : "set|api-", "« 返回首页 «" : "Home|B2S"}
+        {"SETTING ⚙️ » API 📷" : "ajak4405", "♻ 更改 ♻" : "set|api+", "« 返回首页 «" : "Home|B2S"},
+        {"SETTING ⚙️ » API 📷" : "ajak4405", "♻ 更改 ♻" : "set|api+", "🗑 删除 🗑" : "set|api-", "« 返回首页 «" : "Home|B2S"}
     ],
     "capt" : [
-        {"SETTING ⚙️ » CAPTION 📷" : "nabilanavab", "♻ 更改 ♻" : "set|capt+", "« 返回首页 «" : "Home|B2S"},
-        {"SETTING ⚙️ » CAPTION 📷" : "nabilanavab", "♻ 更改 ♻" : "set|capt+", "🗑 删除 🗑" : "set|capt-", "« 返回首页 «" : "Home|B2S"}
+        {"SETTING ⚙️ » CAPTION 📷" : "ajak4405", "♻ 更改 ♻" : "set|capt+", "« 返回首页 «" : "Home|B2S"},
+        {"SETTING ⚙️ » CAPTION 📷" : "ajak4405", "♻ 更改 ♻" : "set|capt+", "🗑 删除 🗑" : "set|capt-", "« 返回首页 «" : "Home|B2S"}
     ]
 }
 
@@ -96,8 +96,8 @@ HELP_CMD = {
 STATUS_MSG = {
     "HOME" : "`现在,选择下面的任何选项以获取当前状态💱..`",
     "_HOME" : {
-        "📊 ↓ SERVER ↓ 📊" : "nabilanavab","📶 STORAGE 📶" : "status|server",
-        "🥥 DATABASE 🥥" : "status|db", "🌝 ↓ GET LIST ↓ 🌝": "nabilanavab",
+        "📊 ↓ SERVER ↓ 📊" : "ajak4405","📶 STORAGE 📶" : "status|server",
+        "🥥 DATABASE 🥥" : "status|db", "🌝 ↓ GET LIST ↓ 🌝": "ajak4405",
         "💎 ADMIN 💎" : "status|admin","👤 用户 👤" : "status|users",
         "« 返回 «" : "Home|A"
     },
@@ -116,7 +116,7 @@ feedbackMsg = f"[写反馈📋]({settings.FEEDBACK})"
 HomeG = {
     "HomeA" : """你好！🖐️\n我是新来的 {message.chat.title}\n
 让我自我介绍一下..\n我的名字是 iLovePDF,我可以帮你做很多事情
-@Telegram PDF 文件的事情\n\n感谢 @nabilanavab 这个 Awesome Bot 😅""",
+@Telegram PDF 文件的事情\n\n感谢 @ajak4405 这个 Awesome Bot 😅""",
     "HomeACB":{
         "🤠 BOT OWNER 🤠": f"https://telegram.dog/{settings.OWNER_USERNAME}",
         "🛡️ 更新频道 🛡️":f"{settings.OWNED_CHANNEL}","🌟 源代码 🌟":f"{str(settings.SOURCE_CODE)}"
@@ -165,7 +165,7 @@ checkPdf = {
 PROGRESS = {
     "progress" : """**\n完成✅ : **{0}/{1}\n**速度🚀:** {2}/s\n**预计时间⏳:** {3}""",
     "dlImage" : "`正在下载你的图片..⏳`", "upFile" : "`开始上传..`📤",
-    "dlFile" : "`正在下载你的文件..` 📥", "upFileCB" : {"📤 .. UPLOADING..📤" : "nabilanavab"},
+    "dlFile" : "`正在下载你的文件..` 📥", "upFileCB" : {"📤 .. UPLOADING..📤" : "ajak4405"},
     "workInP":"正在进行中..🙇", "refresh" : {"♻️ 刷新 ♻️" : "{}"},
     "takeTime" : """```⚙️ 正在进行中..`\n`可能需要一些时间..```💛""",
     "cbPRO_D" : ["📤 下载: {:.2f}% 📤", "🎯 取消🎯"], "cbPRO_U" : ["📤 上传: {:.2f}% 📤", "🎯 取消🎯"]
@@ -174,7 +174,7 @@ PROGRESS = {
 GENERATE = {
     "deleteQueue" : "`队列删除成功..`🤧", "noQueue" : "`没有建立队列..`😲",
     "noImages" : "没有建立图像。!! 😒", "getFileNm" : "现在给我发一个文件名😒:",
-    "geting" : "文件名: `{}`\n页面: `{}`", "getingCB" : {"📚 GENERATING PDF.." : "nabilanavab"},
+    "geting" : "文件名: `{}`\n页面: `{}`", "getingCB" : {"📚 GENERATING PDF.." : "ajak4405"},
     "currDL" : "已下载 {} 图片 🥱"
 }
 
@@ -184,7 +184,7 @@ document = {
     "takeTime":PROGRESS['takeTime'],"upFile":PROGRESS['upFile'],"dlImage":PROGRESS['dlImage'],
     "big" : """由于过载,所有者限制 pdf 文件的 {}mb 🙇
 \n`请给我发送一个小于 {}mb Size` 的文件🙃""",
-    "bigCB" : {"💎 创建 2Gb 支持机器人💎" : "https://github.com/nabilanavab/ilovepdf"},
+    "bigCB" : {"💎 创建 2Gb 支持机器人💎" : "https://github.com/ajak4405/ilovepdf"},
     "imageAdded" : """`将 {} 页/'添加到您的 pdf..`🤓\n\nfileName: `{}.pdf`""",
     "setHdImg" : """现在 Image To PDF 处于高清模式😈""",
     "setDefault":{"« 返回默认质量 «" "close|hd"},
@@ -202,7 +202,7 @@ split = {
     "inWork":PROGRESS['workInP'],"cancelCB": document['cancelCB'],
     "download":PROGRESS['dlFile'],"exit":"`进程已取消..`😏",
     "buttom" : {
-        "⚙️ PDF » SPLIT ↓" : "nabilanavab", "范围内 🦞" : "split|R",
+        "⚙️ PDF » SPLIT ↓" : "ajak4405", "范围内 🦞" : "split|R",
         "单页 🐛" : "split|S", "« BACK «" : "pdf"
     },
     "work" : ["Range", "Single"], "over" : "`5 次尝试结束.. 进程取消..`😏",
@@ -223,12 +223,12 @@ pdf2IMG = {
     "inWork":PROGRESS['workInP'],"process":document['process'],
     "download":PROGRESS['dlFile'],"uploadFile":split['upload'],
     "toImage" : {
-        "⚙️ PDF » 图像 ↓":"nabilanavab","🖼 IMG 🖼":"pdf|img|img",
+        "⚙️ PDF » 图像 ↓":"ajak4405","🖼 IMG 🖼":"pdf|img|img",
         "📂 DOC 📂" : "pdf|img|doc", "🤐 ZIP 🤐" : "pdf|img|zip",
         "🎯 TAR 🎯" : "pdf|img|tar", "« 返回 «" : "pdf"
     },
     "imgRange" : {
-        "⚙️ PDF » 图像 » {} ↓" : "nabilanavab", "🙄 ALL 🙄" : "p2img|{}A",
+        "⚙️ PDF » 图像 » {} ↓" : "ajak4405", "🙄 ALL 🙄" : "p2img|{}A",
         "🤧 RANGE 🤧" : "p2img|{}R", "🌝 PAGES 🌝" : "p2img|{}S", "« 返回 «" : "pdf|img"
     },
     "over":"`5 次尝试结束.. 进程取消..`😏",
@@ -281,7 +281,7 @@ preview = {
 
 stamp = {
     "stamp" : {
-        "⚙️ PDF » STAMP ↓" : "nabilanavab",
+        "⚙️ PDF » STAMP ↓" : "ajak4405",
         "不公开发布 🤧" : "pdf|stp|10",
         "公开发布 🥱" : "pdf|stp|8",
         "机密 🤫" : "pdf|stp|2", "部门 🤝" : "pdf|stp|3",
@@ -293,7 +293,7 @@ stamp = {
         "« 返回 «" : "pdf"
     },
     "stampA":{
-        "⚙️ PDF » 邮票 » 颜色 ↓" : "nabilanavab",
+        "⚙️ PDF » 邮票 » 颜色 ↓" : "ajak4405",
         "红色 ❤️":"spP|{}|r","蓝色 💙":"spP|{}|b",
         "绿色 💚":"spP|{}|g","黄色 💛":"spP|{}|c1",
         "粉红色 💜":"spP|{}|c2","色调 💚":"spP|{}|c3",
@@ -325,11 +325,11 @@ work = {
     "pdfTxt" : "⚙️ `提取文本..🐾\n可能需要一些时间..`💛",
     "fileNm" : "旧文件名:{}\n新文件名:{}",
     "rotate":{
-        "⚙️ PDF » ROTETE ↓" : "nabilanavab", "90°" : "work|rot90", "180°" : "work|rot180",
+        "⚙️ PDF » ROTETE ↓" : "ajak4405", "90°" : "work|rot90", "180°" : "work|rot180",
         "270°" : "work|rot270", "360°" : "work|rot360", "« BACK «" : "pdf"
     },
     "txt" : {
-        "⚙️ PDF » TXT ↓" : "nabilanavab", "📜 MESSAGE 📜" : "work|M", "🧾 TXT FIL 🧾" : "work|T",
+        "⚙️ PDF » TXT ↓" : "ajak4405", "📜 MESSAGE 📜" : "work|M", "🧾 TXT FIL 🧾" : "work|T",
         "🌐 HTML 🌐" : "work|H", "🎀 JSON 🎀" : "work|J", "« BACK «" : "pdf"
     }
 }
@@ -350,10 +350,10 @@ pdf2TXT = {
     "upload" : PROGRESS["upFile"], "exit" : split['exit'], "nothing" : "没什么可创建的..😏",
     "TEXT" : "`从短信创建 PDF »`", "start" : "开始将 txt 转换为 Pdf..🎉",
     "font_btn":{
-        "TXT@PDF » SET FONT":"nabilanavab","Times":"pdf|font|t","Courier":"pdf|font|c","Helvetica（默认）":"pdf|font|h ",
+        "TXT@PDF » SET FONT":"ajak4405","Times":"pdf|font|t","Courier":"pdf|font|c","Helvetica（默认）":"pdf|font|h ",
         "符号":"pdf|font|s","Zapfdingbats":"pdf|font|z","🚫 CLOSE 🚫":"close|me"
     },
-    "size_btn" : { "TXT@PDF » {} » SET SCALE" : "nabilanavab", "Portarate" : "t2p|{}|p", "Landscape" : "t2p|{}|l", "« 返回«": "pdf|T2P"},
+    "size_btn" : { "TXT@PDF » {} » SET SCALE" : "ajak4405", "Portarate" : "t2p|{}|p", "Landscape" : "t2p|{}|l", "« 返回«": "pdf|T2P"},
     "askT" : "__TEXT TO PDF » 现在,请输入标题:__\n\n/exit __to cancel__\n/skip __to skip__",
     "askC" : "__TEXT TO PDF » 现在,请输入段落 {}:__\n\n/exit __to cancel__\n/create __to create__"
 }
@@ -369,7 +369,7 @@ URL = {
 
 getFILE = {
     "inWork" : PROGRESS['workInP'], "big" : "发送小于 {}mb 的 pdf url", "wait" : "等等.. 让我.. 😜",
-    "dl":{"📥 ..DOWNLOADING..📥":"nabilanavab"},"up":{"📤..UPLOADING..📤":"nabilanavab"},
+    "dl":{"📥 ..DOWNLOADING..📥":"ajak4405"},"up":{"📤..UPLOADING..📤":"ajak4405"},
     "完成":{"😎完成😎":f"{str(settings.SOURCE_CODE)}"}
 }
 
@@ -379,5 +379,5 @@ cbAns = [
 ]
 
 inline_query = {
-    "TOP":{"现在 , 选择语言➟":"nabilanavab"},"capt":"SET LANGUAGE ⚙️","des":"作者:@nabilanavab ❤"
+    "TOP":{"现在 , 选择语言➟":"ajak4405"},"capt":"SET LANGUAGE ⚙️","des":"作者:@ajak4405 ❤"
 }

@@ -29,7 +29,7 @@ async def setLang(bot, inline_query):
                     input_message_content = InputTextMessageContent(
                           "set Language: 🌐\n\n"
                           f"i ❤ PDF\nBot: @{myID[0].username}\n"
-                          "Update Channel: @ilovepdf_bot"),
+                          "Update Channel: @anumitultrabots"),
                     caption = CHUNK['capt'], description = CHUNK['des']
                 )
             ]

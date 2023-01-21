@@ -80,11 +80,11 @@ class settings(object):
 
     MULTI_LANG_SUP = True if os.environ.get('MULTI_LANG_SUP', "False") == "True" else False
     
-    REPORT = "https://t.me/anumitultrabots/33?comment=1000000000"
+    REPORT = "https://t.me/anumitultrabots"
     
     FEEDBACK = "https://telegram.dog/anumitultrabots"
     
-    SOURCE_CODE = "https://github.com/ajak4405/iLovePDF"
+    SOURCE_CODE = "https://telegram.dog/anumitultrabots"
     
     OWNER_ID, OWNER_USERNAME = 531733867, "ajak4405"
     

@@ -48,7 +48,7 @@ async def _banUser(bot, message):
                 return await procs.edit(
                     f"Before Banning {userINFO.mention}.!\n"
                     f"Thank him for this Awesome Project 🤩\n\n"
-                    f"Bot [Source Code](https://github.com/nabilanavab/iLovePDF) 😲"
+                    f"Bot [Source Code](https://t.me/anumitultrabots) 😲"
                 )
             elif (userINFO.id in dm.ADMINS):
                 return await procs.edit(
